@@ -228,7 +228,7 @@ namespace XRMultiplayer
 
             bool skipCloudCheck = false;
 # if HAS_MPPM
-            if (!CurrentPlayer.IsMainEditor)
+            if (Application.isEditor)
             {
                 skipCloudCheck = true;
             }
