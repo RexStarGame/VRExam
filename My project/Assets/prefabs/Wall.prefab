@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 602403157444958579}
   - component: {fileID: 2332377801906449869}
   m_Layer: 0
-  m_Name: collider2
+  m_Name: DeathColliderObject
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,7 +47,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -66,8 +66,8 @@ GameObject:
   - component: {fileID: 449783329333060611}
   - component: {fileID: 7002798137707087818}
   m_Layer: 0
-  m_Name: Cube
-  m_TagString: Terrain
+  m_Name: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
