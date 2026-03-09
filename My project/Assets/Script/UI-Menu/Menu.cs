@@ -12,12 +12,18 @@ public class Menu : MonoBehaviour
     private void Start()
     {
         PlayerEvents.instance.DeathEvent.AddListener(OnDeath);
+        PlayerEvents.instance.WinEvent.AddListener(OnWin);
     }
-    public void OnDeath()
+    private void OnDeath()
     {
         // a death animation maybe?
         Invoke(nameof(MainMenu), timeToSwitchScenes);
     }
+    private void OnWin()
+    {
+        Invoke(nameof(MainMenu), timeToSwitchScenes);
+    }
+
     private void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");

@@ -4,7 +4,7 @@ using UnityEngine.Events;
 public class PlayerEvents : MonoBehaviour
 {
     public static PlayerEvents instance;
-    public UnityEvent DeathEvent;
+    public UnityEvent DeathEvent, WinEvent;
     private void Awake()
     {
         if (instance == null) { instance = this; }
@@ -15,10 +15,21 @@ public class PlayerEvents : MonoBehaviour
         {
             DeathEvent = new UnityEvent();
         }
+        if (WinEvent == null)
+        {
+            WinEvent = new UnityEvent();
+        }
         DeathEvent.AddListener(OnDeath);
+        WinEvent.AddListener(OnWin);
     }
     private void OnDeath()
     {
+        // make death aniamtion
         Debug.Log("Player died");
+    }
+    private void OnWin()
+    {
+        // make win animation
+        Debug.Log("Player has won");
     }
 }
