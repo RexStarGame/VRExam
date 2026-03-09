@@ -5,16 +5,13 @@ public class Menu : MonoBehaviour
 {
     private static Menu instance;
     [SerializeField] private float timeToSwitchScenes = 5;
+    private void Awake()
+    {
+        if (instance == null) { instance = this; }
+    }
     private void Start()
     {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else
-        {
-            Destroy(this);
-        }
+        PlayerEvents.instance.DeathEvent.AddListener(OnDeath);
     }
     public void OnDeath()
     {
