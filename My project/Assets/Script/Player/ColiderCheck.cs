@@ -11,7 +11,7 @@ public class ColiderCheck : MonoBehaviour
 
         if (hitDir != HitDirection.Top && hitDir != HitDirection.Bottom && hitDir != HitDirection.None)
         {
-            //Destroy(collision.gameObject);  // spiller dør 
+           PlayerEvents.instance.DeathEvent.Invoke();
         }
     }
 
