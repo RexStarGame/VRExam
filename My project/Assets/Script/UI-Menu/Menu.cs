@@ -16,7 +16,6 @@ public class Menu : MonoBehaviour
     }
     private void OnDeath()
     {
-        // a death animation maybe?
         Invoke(nameof(MainMenu), timeToSwitchScenes);
     }
     private void OnWin()

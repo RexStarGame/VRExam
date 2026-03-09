@@ -1,0 +1,16 @@
+Player movement		-W
+mindst en bane		-W
+Mindst en forhindring	
+	væg		
+		kode	-P
+		Objekt	-P
+Komplet gameplay loop	
+	win		-L
+	dø		-L
+Basal lyd		
+	musik		-
+	SFX		-
+menu
+	main menu	-L
+	death screen	-L
+	win screen	-L
