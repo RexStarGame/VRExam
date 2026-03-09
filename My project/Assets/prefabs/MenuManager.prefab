@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6006928868458824422}
   - component: {fileID: 8317398837184392737}
+  - component: {fileID: 5082973715698965282}
   m_Layer: 0
   m_Name: MenuManager
   m_TagString: Untagged
@@ -45,3 +46,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToSwitchScenes: 5
+--- !u!114 &5082973715698965282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8893329702538485390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fb6842d34c61804c93c88a35a1a9446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeathEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  WinEvent:
+    m_PersistentCalls:
+      m_Calls: []
