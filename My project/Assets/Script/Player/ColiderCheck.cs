@@ -7,41 +7,30 @@ public class ColiderCheck : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
 
-        HitDirection hitDir = ReturnDirection(collision.gameObject, this.gameObject);
-        if (hitDir == HitDirection.Left ||
-            hitDir == HitDirection.Right ||
-            hitDir == HitDirection.Forward ||
-            hitDir == HitDirection.Back)
+        HitDirection hitDir = ReturnDirection(collision);
+
+        if (hitDir != HitDirection.Top && hitDir != HitDirection.Bottom && hitDir != HitDirection.None)
         {
-            Destroy(gameObject);
+            //Destroy(collision.gameObject);  // spiller dør 
         }
     }
 
     private enum HitDirection { None, Top, Bottom, Forward, Back, Left, Right }
 
-    private HitDirection ReturnDirection(GameObject Object, GameObject ObjectHit)
+    private HitDirection ReturnDirection(Collision collision)
     {
 
         HitDirection hitDirection = HitDirection.None;
-        RaycastHit MyRayHit;
-        Vector3 direction = (Object.transform.position - ObjectHit.transform.position).normalized;
-        Ray MyRay = new Ray(ObjectHit.transform.position, direction);
 
-        if (Physics.Raycast(MyRay, out MyRayHit))
-        {
+        Vector3 normal = collision.GetContact(0).normal;
 
-            if (MyRayHit.collider != null)
-            {
-                Vector3 MyNormal = MyRayHit.normal;
+        if (Vector3.Angle(normal, transform.up) < 45f) { hitDirection = HitDirection.Top; }
+        else if (Vector3.Angle(normal, -transform.up) < 45f) { hitDirection = HitDirection.Bottom; }
+        else if (Vector3.Angle(normal, transform.forward) < 45f) { hitDirection = HitDirection.Forward; }
+        else if (Vector3.Angle(normal, -transform.forward) < 45f) { hitDirection = HitDirection.Back; }
+        else if (Vector3.Angle(normal, transform.right) < 45f) { hitDirection = HitDirection.Right; }
+        else if (Vector3.Angle(normal, -transform.right) < 45f) { hitDirection = HitDirection.Left; }
 
-                if (MyNormal == MyRayHit.transform.up) { hitDirection = HitDirection.Top; }
-                if (MyNormal == -MyRayHit.transform.up) { hitDirection = HitDirection.Bottom; }
-                if (MyNormal == MyRayHit.transform.forward) { hitDirection = HitDirection.Forward; }
-                if (MyNormal == -MyRayHit.transform.forward) { hitDirection = HitDirection.Back; }
-                if (MyNormal == MyRayHit.transform.right) { hitDirection = HitDirection.Right; }
-                if (MyNormal == -MyRayHit.transform.right) { hitDirection = HitDirection.Left; }
-            }
-        }
         return hitDirection;
     }
 }
