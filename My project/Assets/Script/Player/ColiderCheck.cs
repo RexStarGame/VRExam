@@ -6,12 +6,25 @@ public class ColiderCheck : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        if (!collision.gameObject.CompareTag("Player"))
+            return;
 
         HitDirection hitDir = ReturnDirection(collision);
 
         if (hitDir != HitDirection.Top && hitDir != HitDirection.Bottom && hitDir != HitDirection.None)
         {
-           PlayerEvents.instance.DeathEvent.Invoke();
+            CubeMovement cubeMovement = collision.collider.GetComponentInParent<CubeMovement>();
+            if (cubeMovement != null)
+                cubeMovement.enabled = false;
+
+            Rigidbody playerRb = collision.collider.GetComponentInParent<Rigidbody>();
+            if (playerRb != null)
+            {
+                playerRb.linearVelocity = Vector3.zero;
+                playerRb.angularVelocity = Vector3.zero;
+            }
+
+            PlayerEvents.instance.DeathEvent.Invoke();
         }
     }
 
