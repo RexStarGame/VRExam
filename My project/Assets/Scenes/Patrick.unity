@@ -435,9 +435,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forwardSpeed: 10
-  sideSpeed: 8
+  sideSpeed: 5
   jumpVelocity: 10
-  gravityMultiplier: 4
+  gravityMultiplier: 4.5
   flipSpeed: 360
 --- !u!114 &156971085
 MonoBehaviour:
@@ -1053,6 +1053,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1662337334}
     m_Modifications:
+    - target: {fileID: 1066027976750393349, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
+      propertyPath: m_Radius
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 2451986770814425029, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
       propertyPath: superJumpForce
       value: 10.4
@@ -1741,6 +1745,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1662337334}
     m_Modifications:
+    - target: {fileID: 1066027976750393349, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
+      propertyPath: m_Radius
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 2451986770814425029, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
       propertyPath: superJumpForce
       value: 10.4
@@ -2431,25 +2439,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1662337334}
     m_Modifications:
-    - target: {fileID: 2451986770814425029, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
-      propertyPath: superJumpForce
-      value: 10.4
-      objectReference: {fileID: 0}
     - target: {fileID: 5678364607680622937, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
       propertyPath: m_Name
       value: JumpUPS
-      objectReference: {fileID: 0}
-    - target: {fileID: 8780650713505175813, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3.013267
-      objectReference: {fileID: 0}
-    - target: {fileID: 8780650713505175813, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3.013267
-      objectReference: {fileID: 0}
-    - target: {fileID: 8780650713505175813, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3.013267
       objectReference: {fileID: 0}
     - target: {fileID: 8780650713505175813, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2509,6 +2501,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1662337334}
     m_Modifications:
+    - target: {fileID: 1066027976750393349, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
+      propertyPath: m_Radius
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 2451986770814425029, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
       propertyPath: superJumpForce
       value: 10.4
@@ -3330,6 +3326,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1662337334}
     m_Modifications:
+    - target: {fileID: 1066027976750393349, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
+      propertyPath: m_Radius
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 2451986770814425029, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
       propertyPath: superJumpForce
       value: 10.4
@@ -3408,6 +3408,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1662337334}
     m_Modifications:
+    - target: {fileID: 1066027976750393349, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
+      propertyPath: m_Radius
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 2451986770814425029, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
       propertyPath: superJumpForce
       value: 10.4
@@ -4127,6 +4131,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1662337334}
     m_Modifications:
+    - target: {fileID: 1066027976750393349, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
+      propertyPath: m_Radius
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 2451986770814425029, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
       propertyPath: superJumpForce
       value: 10.4
@@ -5826,6 +5834,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1662337334}
     m_Modifications:
+    - target: {fileID: 1066027976750393349, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
+      propertyPath: m_Radius
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 2451986770814425029, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
       propertyPath: superJumpForce
       value: 10.4
