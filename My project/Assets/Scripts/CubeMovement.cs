@@ -11,9 +11,15 @@ public class CubeMovement : MonoBehaviour
     private Rigidbody rb;
     private bool isGrounded = true;
 
+    // TILFØJET 1: En variabel til at holde fast i dit lyd-script
+    private JumpAudioManager audioManager;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        isGrounded = true;
+        // TILFØJET 2: Vi finder lyd-scriptet automatisk, når spillet starter
+        audioManager = GetComponent<JumpAudioManager>();
 
         // Freeze X and Y rotation for flips along Z
         rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY;
@@ -65,6 +71,11 @@ public class CubeMovement : MonoBehaviour
         {
             rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpVelocity, rb.linearVelocity.z);
             isGrounded = false;
+
+            if (audioManager != null)
+            {
+                audioManager.PlayJumpSound();
+            }
         }
     }
 
