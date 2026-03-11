@@ -9,7 +9,6 @@ public class OneTimeJumpBoost : MonoBehaviour
     private bool isPlayerInZone = false;
     private Rigidbody playerRb;
 
-    // Vi gemmer en reference til lyd-scriptet her
     private JumpAudioManager audioManager;
 
     private void Update()
@@ -18,7 +17,6 @@ public class OneTimeJumpBoost : MonoBehaviour
         {
             if (playerRb != null)
             {
-                // Vi beder lyd-scriptet spille lyden LIGE NU, før vi hopper!
                 if (audioManager != null)
                 {
                     audioManager.PlayJumpSound();
@@ -38,8 +36,6 @@ public class OneTimeJumpBoost : MonoBehaviour
         {
             isPlayerInZone = true;
             playerRb = other.GetComponent<Rigidbody>();
-
-            // Vi finder lyd-scriptet på din pixel art alien, når den træder ind
             audioManager = other.GetComponent<JumpAudioManager>();
         }
     }

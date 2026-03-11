@@ -18,22 +18,19 @@ public class CubeMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         isGrounded = true;
-        // TILFØJET 2: Vi finder lyd-scriptet automatisk, når spillet starter
         audioManager = GetComponent<JumpAudioManager>();
 
-        // Freeze X and Y rotation for flips along Z
         rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY;
 
         rb.interpolation = RigidbodyInterpolation.Interpolate;
 
-        // Disable Rigidbody bounciness
         var collider = GetComponent<Collider>();
         if (collider != null)
         {
-            PhysicsMaterial mat = new PhysicsMaterial(); // updated from PhysicMaterial
+            PhysicsMaterial mat = new PhysicsMaterial();
             mat.bounciness = 0f;
-            mat.frictionCombine = PhysicsMaterialCombine.Multiply; // updated
-            mat.bounceCombine = PhysicsMaterialCombine.Multiply;   // updated
+            mat.frictionCombine = PhysicsMaterialCombine.Multiply;
+            mat.bounceCombine = PhysicsMaterialCombine.Multiply;
             collider.material = mat;
         }
     }

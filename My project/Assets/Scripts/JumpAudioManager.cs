@@ -25,11 +25,8 @@ public class JumpAudioManager : MonoBehaviour
         audioSource.priority = 0;
     }
 
-    // Update() er fjernet! Vi lytter kun til direkte ordrer fra CubeMovement nu.
-
     public void PlayJumpSound()
     {
-        // Tids-skjold mod utilsigtede fysik-kald
         if (Time.time < lastPlayedTime + cooldownTime) return;
         lastPlayedTime = Time.time;
 
@@ -37,7 +34,6 @@ public class JumpAudioManager : MonoBehaviour
 
         audioSource.pitch = 1f + Random.Range(-pitchVariation, pitchVariation);
 
-        // Vælger klip, tvinger nålen til 0, og afspiller
         if (isInBoostZone && boostJumpClip != null)
         {
             audioSource.clip = boostJumpClip;
