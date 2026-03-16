@@ -24,7 +24,6 @@ public class PlayerEvents : MonoBehaviour
     }
     private void OnDeath()
     {
-        // make death aniamtion
         Debug.Log("Player died");
     }
     private void OnWin()

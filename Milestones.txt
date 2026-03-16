@@ -8,8 +8,8 @@ Komplet gameplay loop
 	win		-L
 	dø		-L
 Basal lyd		
-	musik		-
-	SFX		-
+	musik		-P
+	SFX		-P
 menu
 	main menu	-L
 	death screen	-L
