@@ -3,8 +3,8 @@ using UnityEngine.Events;
 
 public class PlayerEvents : MonoBehaviour
 {
-    public static PlayerEvents instance;
-    public UnityEvent DeathEvent, WinEvent;
+    [SerializeField] public static PlayerEvents instance;
+    [SerializeField] public UnityEvent DeathEvent, WinEvent, GravityEvent;
     private void Awake()
     {
         if (instance == null) { instance = this; }
@@ -21,6 +21,7 @@ public class PlayerEvents : MonoBehaviour
         }
         DeathEvent.AddListener(OnDeath);
         WinEvent.AddListener(OnWin);
+        GravityEvent.AddListener(OnGravity);
     }
     private void OnDeath()
     {
@@ -30,5 +31,9 @@ public class PlayerEvents : MonoBehaviour
     {
         // make win animation
         Debug.Log("Player has won");
+    }
+    private void OnGravity()
+    {
+        Debug.Log("Gravity event triggered")
     }
 }
