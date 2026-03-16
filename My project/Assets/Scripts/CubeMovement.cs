@@ -20,9 +20,18 @@ public class CubeMovement : MonoBehaviour
         isGrounded = true;
         audioManager = GetComponent<JumpAudioManager>();
 
+
+        rb.interpolation = RigidbodyInterpolation.Interpolate;
+
+        // Start locked to ground
+        rb.constraints = RigidbodyConstraints.FreezeRotation;
+
+        // Remove bounce
+
         rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY;
 
         rb.interpolation = RigidbodyInterpolation.Interpolate;
+
 
         var collider = GetComponent<Collider>();
         if (collider != null)
@@ -43,18 +52,19 @@ public class CubeMovement : MonoBehaviour
         // Side movement
         if (Input.GetKey(KeyCode.A))
             newPosition += Vector3.forward * sideSpeed * Time.fixedDeltaTime;
+
         if (Input.GetKey(KeyCode.D))
             newPosition += Vector3.back * sideSpeed * Time.fixedDeltaTime;
 
         rb.MovePosition(newPosition);
 
-        // Apply snappy falling only if moving down
+        // Faster falling
         if (rb.linearVelocity.y < 0)
         {
             rb.linearVelocity += Vector3.up * Physics.gravity.y * (gravityMultiplier - 1) * Time.fixedDeltaTime;
         }
 
-        // Rotate cube along -Z while in the air
+        // Rotate in air
         if (!isGrounded)
         {
             transform.Rotate(-Vector3.forward * flipSpeed * Time.fixedDeltaTime, Space.Self);
@@ -66,13 +76,21 @@ public class CubeMovement : MonoBehaviour
         // Jump
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpVelocity, rb.linearVelocity.z);
             isGrounded = false;
+
+
+            // Allow Z rotation while airborne
+            rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY;
+
+            rb.angularVelocity = Vector3.zero;
+
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpVelocity, rb.linearVelocity.z);
 
             if (audioManager != null)
             {
                 audioManager.PlayJumpSound();
             }
+
         }
     }
 
@@ -82,15 +100,21 @@ public class CubeMovement : MonoBehaviour
         {
             isGrounded = true;
 
-            // Zero vertical velocity to prevent bounce
+            // Stop all physics spin
+            rb.angularVelocity = Vector3.zero;
+
+            // Stop vertical bounce
             rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
 
-            // Snap rotation to nearest 90 degrees on Z
+            // Snap to nearest 90°
             Vector3 rot = transform.eulerAngles;
             rot.z = Mathf.Round(rot.z / 90f) * 90f;
             rot.x = 0f;
             rot.y = 0f;
             transform.eulerAngles = rot;
+
+            // Lock cube to ground instantly
+            rb.constraints = RigidbodyConstraints.FreezeRotation;
         }
     }
 }
