@@ -11,6 +11,8 @@ public class RollingSpikes : MonoBehaviour
     [Header("Player")]
     [SerializeField] private string playerTag = "Player";
 
+    [Header("Lyd Indstillinger")]
+    public AudioSource backgroundMusic;
     [Header("Movement Between A and B")]
     [SerializeField] private Transform pointA;
     [SerializeField] private Transform pointB;
@@ -97,7 +99,13 @@ public class RollingSpikes : MonoBehaviour
                 break;
         }
     }
-
+    private void StopMusic()
+    {
+        if (backgroundMusic != null && backgroundMusic.isPlaying)
+        {
+            backgroundMusic.Stop();
+        }
+    }
     private void RotateWheel()
     {
         if (rotationSpeedPerAxis == Vector3.zero)
@@ -172,7 +180,7 @@ public class RollingSpikes : MonoBehaviour
             playerRb.linearVelocity = Vector3.zero;
             playerRb.angularVelocity = Vector3.zero;
         }
-
+        StopMusic();
         PlayerEvents.instance.DeathEvent.Invoke();
     }
 
