@@ -11,9 +11,9 @@ public class PlayerAnimation : MonoBehaviour
     }
     void OnDeath()
     {
-        Main();
+        Explode();
     }
-    void Main()
+    void Explode()
     {
         for (int x = 0; x < CubesPerAxis; x++)
         {
