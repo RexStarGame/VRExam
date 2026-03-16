@@ -1,11 +1,10 @@
 Player movement		-W
-mindst en bane		-W
+mindst en bane		-W&P
 Mindst en forhindring	
-	væg		
-		kode	-P
-		Objekt	-P
+	væg		-P
+	Portal		-L
 Komplet gameplay loop	
-	win		-L
+	win		-
 	dø		-L
 Basal lyd		
 	musik		-P
@@ -14,3 +13,4 @@ menu
 	main menu	-L
 	death screen	-L
 	win screen	-L
+	Level select	-P
