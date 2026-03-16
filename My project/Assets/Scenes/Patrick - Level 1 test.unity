@@ -166,6 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &5625447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -287,6 +288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &69553814
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -408,6 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &87816502
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -757,7 +760,8 @@ Transform:
   m_LocalPosition: {x: -53.7, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 378737740}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &156971083
@@ -1327,6 +1331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 378737741}
 --- !u!65 &314512091
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1523,6 +1528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &324328975
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1978,6 +1984,135 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65d8ebdc9f8cfa447903684c88c6898a, type: 3}
+--- !u!1 &378737739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378737740}
+  - component: {fileID: 378737741}
+  m_Layer: 0
+  m_Name: MusicBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &378737740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378737739}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 156971082}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &378737741
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378737739}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 801309e05427ed749a5962fdd55a57ca, type: 3}
+  m_Resource: {fileID: 8300000, guid: 801309e05427ed749a5962fdd55a57ca, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &379049775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2082,6 +2217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &391093322
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3104,6 +3240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &609423019
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3894,6 +4031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &782913838
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4015,6 +4153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &802156176
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4759,6 +4898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 378737741}
 --- !u!65 &913658535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4950,6 +5090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &961478074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5194,6 +5335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &990996381
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5568,6 +5710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &1054278540
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6229,6 +6372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &1202958370
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6560,6 +6704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &1298599423
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6802,6 +6947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 378737741}
 --- !u!65 &1421195629
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7350,6 +7496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 378737741}
 --- !u!65 &1508477430
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7990,6 +8137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &1563541035
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8224,6 +8372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &1615139409
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8415,6 +8564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &1649254948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8831,6 +8981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &1722366330
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9190,6 +9341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 378737741}
 --- !u!65 &1851995311
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9326,6 +9478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &1856730598
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9515,6 +9668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &1874379072
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9744,6 +9898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &1906647798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10302,6 +10457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &1984477295
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10462,6 +10618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &2022889728
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10761,6 +10918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &2036896101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11031,6 +11189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &2126150187
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11152,6 +11311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c54bf649dd1934d8427ed01ba012e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
 --- !u!65 &2128562151
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11299,6 +11459,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1603879567}
     m_Modifications:
+    - target: {fileID: 1044027586792625540, guid: 4e08b0e7b84b0c24e93c15745304c26f, type: 3}
+      propertyPath: backgroundMusic
+      value: 
+      objectReference: {fileID: 378737741}
     - target: {fileID: 1407836375746736841, guid: 4e08b0e7b84b0c24e93c15745304c26f, type: 3}
       propertyPath: m_Name
       value: BlueWall
