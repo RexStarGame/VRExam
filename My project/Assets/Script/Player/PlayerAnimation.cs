@@ -33,7 +33,7 @@ public class PlayerAnimation : MonoBehaviour
         GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
 
         Renderer rd = cube.GetComponent<Renderer>();
-        rd.material = cube.GetComponent<Material>();
+        rd.material = cube.GetComponent<Renderer>().material;
 
         cube.transform.localScale = transform.localScale / CubesPerAxis;
 
