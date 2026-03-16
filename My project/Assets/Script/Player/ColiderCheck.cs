@@ -3,7 +3,9 @@ using System.Collections;
 
 public class ColiderCheck : MonoBehaviour
 {
-
+    [Header("Lyd Indstillinger")]
+    // [NYT] Her laver vi en plads, hvor du kan trække din baggrundsmusik ind i Unity
+    public AudioSource backgroundMusic;
     void OnCollisionEnter(Collision collision)
     {
         if (!collision.gameObject.CompareTag("Player"))
@@ -23,8 +25,18 @@ public class ColiderCheck : MonoBehaviour
                 playerRb.linearVelocity = Vector3.zero;
                 playerRb.angularVelocity = Vector3.zero;
             }
-
+            StopMusic();
             PlayerEvents.instance.DeathEvent.Invoke();
+
+        }
+    }
+    private void StopMusic()
+    {
+        // Vi tjekker først, om du har husket at putte en AudioSource ind, 
+        // og om den overhovedet spiller noget lige nu.
+        if (backgroundMusic != null && backgroundMusic.isPlaying)
+        {
+            backgroundMusic.Stop();
         }
     }
 
