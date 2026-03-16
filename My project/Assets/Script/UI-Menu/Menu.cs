@@ -5,24 +5,30 @@ public class Menu : MonoBehaviour
 {
     private static Menu instance;
     [SerializeField] private float timeToSwitchScenes = 5;
+    private void Awake()
+    {
+        if (instance == null) { instance = this; }
+    }
     private void Start()
     {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else
-        {
-            Destroy(this);
-        }
+        PlayerEvents.instance.DeathEvent.AddListener(OnDeath);
+        PlayerEvents.instance.WinEvent.AddListener(OnWin);
     }
-    public void OnDeath()
+    private void OnDeath()
     {
-        // a death animation maybe?
         Invoke(nameof(MainMenu), timeToSwitchScenes);
     }
+    private void OnWin()
+    {
+        Invoke(nameof(MainMenu), timeToSwitchScenes);
+    }
+
     private void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+    public void StartGame()
+    {
+        SceneManager.LoadScene("LevelSelectScene");
     }
 }

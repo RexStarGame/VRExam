@@ -11,9 +11,15 @@ public class CubeMovement : MonoBehaviour
     private Rigidbody rb;
     private bool isGrounded = true;
 
+    // TILFØJET 1: En variabel til at holde fast i dit lyd-script
+    private JumpAudioManager audioManager;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        isGrounded = true;
+        audioManager = GetComponent<JumpAudioManager>();
+
 
         rb.interpolation = RigidbodyInterpolation.Interpolate;
 
@@ -21,6 +27,12 @@ public class CubeMovement : MonoBehaviour
         rb.constraints = RigidbodyConstraints.FreezeRotation;
 
         // Remove bounce
+
+        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY;
+
+        rb.interpolation = RigidbodyInterpolation.Interpolate;
+
+
         var collider = GetComponent<Collider>();
         if (collider != null)
         {
@@ -66,12 +78,19 @@ public class CubeMovement : MonoBehaviour
         {
             isGrounded = false;
 
+
             // Allow Z rotation while airborne
             rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY;
 
             rb.angularVelocity = Vector3.zero;
 
             rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpVelocity, rb.linearVelocity.z);
+
+            if (audioManager != null)
+            {
+                audioManager.PlayJumpSound();
+            }
+
         }
     }
 
