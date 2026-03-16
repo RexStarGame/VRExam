@@ -523,6 +523,7 @@ MonoBehaviour:
   - {fileID: 1779084607}
   - {fileID: 1172490719}
   playerTag: Player
+  backgroundMusic: {fileID: 0}
   pointA: {fileID: 811709712}
   pointB: {fileID: 1492140918}
   moveSpeed: 4
@@ -1023,6 +1024,7 @@ MonoBehaviour:
   - {fileID: 1694897508}
   - {fileID: 845152865}
   playerTag: Player
+  backgroundMusic: {fileID: 0}
   pointA: {fileID: 811709712}
   pointB: {fileID: 1492140918}
   moveSpeed: 4
@@ -2810,6 +2812,7 @@ MonoBehaviour:
   - {fileID: 2120176792}
   - {fileID: 1789550785}
   playerTag: Player
+  backgroundMusic: {fileID: 0}
   pointA: {fileID: 1184487305}
   pointB: {fileID: 2086858182}
   moveSpeed: 4
@@ -3621,6 +3624,7 @@ MonoBehaviour:
   - {fileID: 1260866764}
   - {fileID: 1518936002}
   playerTag: Player
+  backgroundMusic: {fileID: 0}
   pointA: {fileID: 811709712}
   pointB: {fileID: 1492140918}
   moveSpeed: 4
@@ -5570,6 +5574,7 @@ MonoBehaviour:
   - {fileID: 963507087}
   - {fileID: 2034065847}
   playerTag: Player
+  backgroundMusic: {fileID: 0}
   pointA: {fileID: 1184487305}
   pointB: {fileID: 2086858182}
   moveSpeed: 4
@@ -6093,6 +6098,7 @@ MonoBehaviour:
   - {fileID: 553393556}
   - {fileID: 612566642}
   playerTag: Player
+  backgroundMusic: {fileID: 0}
   pointA: {fileID: 1184487305}
   pointB: {fileID: 2086858182}
   moveSpeed: 4
@@ -11458,6 +11464,10 @@ PrefabInstance:
       propertyPath: pointB
       value: 
       objectReference: {fileID: 1492140918}
+    - target: {fileID: 7682730470895432140, guid: 1c95e15505293074aa6b41399f04e6fb, type: 3}
+      propertyPath: backgroundMusic
+      value: 
+      objectReference: {fileID: 378737741}
     - target: {fileID: 7760158999690619007, guid: 1c95e15505293074aa6b41399f04e6fb, type: 3}
       propertyPath: m_Name
       value: SpkieWheel
