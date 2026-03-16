@@ -180,7 +180,7 @@ public class RollingSpikes : MonoBehaviour
             playerRb.linearVelocity = Vector3.zero;
             playerRb.angularVelocity = Vector3.zero;
         }
-
+        StopMusic();
         PlayerEvents.instance.DeathEvent.Invoke();
     }
 

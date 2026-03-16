@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class FallOutDeath : MonoBehaviour
 {
+    [Header("Lyd Indstillinger")]
+    public AudioSource backgroundMusic;
     void OnCollisionEnter(Collision collision)
     {
         Debug.Log(collision.collider.name); 
@@ -24,8 +26,16 @@ public class FallOutDeath : MonoBehaviour
                 playerRb.linearVelocity = Vector3.zero;
                 playerRb.angularVelocity = Vector3.zero;
             }
+            StopMusic();
 
             PlayerEvents.instance.DeathEvent.Invoke();
+        }
+    }
+    private void StopMusic()
+    {
+        if (backgroundMusic != null && backgroundMusic.isPlaying)
+        {
+            backgroundMusic.Stop();
         }
     }
 
