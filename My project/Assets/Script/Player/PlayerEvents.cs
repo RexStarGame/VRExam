@@ -34,6 +34,6 @@ public class PlayerEvents : MonoBehaviour
     }
     private void OnGravity()
     {
-        Debug.Log("Gravity event triggered")
+        Debug.Log("Gravity event triggered");
     }
 }
