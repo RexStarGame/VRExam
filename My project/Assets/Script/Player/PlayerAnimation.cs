@@ -3,11 +3,15 @@ using UnityEngine;
 public class PlayerAnimation : MonoBehaviour
 {
     [SerializeField] public int CubesPerAxis = 8;
-    [SerializeField] public float Delay = 1f, Force = 300f, Radius = 2f;
+    [SerializeField] public float Force = 300f, Radius = 2f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Invoke(nameof(Main), Delay);
+        PlayerEvents.instance.DeathEvent.AddListener(OnDeath);
+    }
+    void OnDeath()
+    {
+        Main();
     }
     void Main()
     {

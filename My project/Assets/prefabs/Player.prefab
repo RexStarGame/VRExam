@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 6817947668394712462}
   - component: {fileID: 7146459167095989094}
   - component: {fileID: 1701348332743273179}
+  - component: {fileID: 3195989191459345285}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -287,3 +288,19 @@ MonoBehaviour:
   normalJumpClip: {fileID: 8300000, guid: 92edcb7baf078a24ea90e00d18077824, type: 3}
   boostJumpClip: {fileID: 8300000, guid: a0a9b7b6059c4ad4482238fe616a24c3, type: 3}
   pitchVariation: 0.412
+--- !u!114 &3195989191459345285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8766587138125114866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab05005a1d8742746845718cae3229f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CubesPerAxis: 8
+  Delay: 1
+  Force: 300
+  Radius: 2
