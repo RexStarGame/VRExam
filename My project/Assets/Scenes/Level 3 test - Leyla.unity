@@ -2717,9 +2717,10 @@ MonoBehaviour:
   sideSpeed: 15
   rb: {fileID: 0}
   jumpVelocity: 8
-  gravityMultiplier: 20
+  gravityMultiplier: 15
   flipSpeed: 360
   isGrounded: 1
+  otherGravity: 1
   gravityReversed: 0
   audioManager: {fileID: 0}
   playerEvents: {fileID: 0}
