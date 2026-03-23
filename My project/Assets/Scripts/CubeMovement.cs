@@ -12,6 +12,7 @@ public class CubeMovement : MonoBehaviour
     [SerializeField] public float gravityMultiplier = 4f;
     [SerializeField] public float flipSpeed = 360f;
     [SerializeField] private bool isGrounded = true;
+    [SerializeField] bool otherGravity = false;
 
     [Header("Portal")]
     [SerializeField] private bool gravityReversed;
@@ -25,6 +26,7 @@ public class CubeMovement : MonoBehaviour
 
     void Start()
     {
+        if (otherGravity) Physics.gravity = new(0,-gravityMultiplier,0);
         InitializeEventListeners();
         InitializeRigidBody();
         InitializeAudio();
@@ -50,18 +52,19 @@ public class CubeMovement : MonoBehaviour
         {
             rb.linearVelocity -= Physics.gravity.y * Time.fixedDeltaTime * Vector3.up;
         }
-
-        // Faster falling
-        if (rb.linearVelocity.y < 0 && gravityReversed == false)
+        if (!otherGravity)
         {
-            rb.linearVelocity += (gravityMultiplier - 1) * Physics.gravity.y * Time.fixedDeltaTime * Vector3.up;
+            // Faster falling
+            if (rb.linearVelocity.y < 0 && gravityReversed == false)
+            {
+                rb.linearVelocity += (gravityMultiplier - 1) * Physics.gravity.y * Time.fixedDeltaTime * Vector3.up;
+            }
+            // and in reverse gravity
+            else if (rb.linearVelocity.y > 0 && gravityReversed == true)
+            {
+                rb.linearVelocity -= (gravityMultiplier - 1) * Physics.gravity.y * Time.fixedDeltaTime * Vector3.up;
+            }
         }
-        // and in reverse gravity
-        else if (rb.linearVelocity.y > 0 && gravityReversed == true)
-        {
-            rb.linearVelocity -= (gravityMultiplier - 1) * Physics.gravity.y * Time.fixedDeltaTime * Vector3.up;
-        }
-
         // Rotate in air
         if (!isGrounded)
         {
