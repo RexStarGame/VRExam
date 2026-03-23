@@ -3,11 +3,29 @@ using System.Collections;
 
 public class ColiderCheck : MonoBehaviour
 {
+    [Header("Debug")]
+    [SerializeField] private bool debugMode;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Wall"))
         {
             PlayerEvents.instance.DeathEvent.Invoke(); 
+            if (debugMode)
+            {
+                Renderer otherRenderer = other.gameObject.GetComponent<Renderer>();
+                if (otherRenderer != null)
+                {
+                    otherRenderer.material.color = Color.red;
+                }
+                else
+                {
+                    otherRenderer = other.transform.parent.GetComponent<Renderer>();
+                    if (otherRenderer != null)
+                    {
+                        otherRenderer.material.color = Color.red;
+                    }
+                }
+            }
         }
     }
     
