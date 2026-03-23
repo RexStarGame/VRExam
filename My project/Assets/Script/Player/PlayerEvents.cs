@@ -8,17 +8,13 @@ public class PlayerEvents : MonoBehaviour
     private void Awake()
     {
         if (instance == null) { instance = this; }
+        DeathEvent ??= new UnityEvent();
+        WinEvent ??= new UnityEvent();
+        GravityEvent ??= new UnityEvent();
     }
     private void Start()
     {
-        if (DeathEvent == null)
-        {
-            DeathEvent = new UnityEvent();
-        }
-        if (WinEvent == null)
-        {
-            WinEvent = new UnityEvent();
-        }
+        
         DeathEvent.AddListener(OnDeath);
         WinEvent.AddListener(OnWin);
         GravityEvent.AddListener(OnGravity);
