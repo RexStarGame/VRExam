@@ -3,13 +3,14 @@ using System.Collections;
 
 public class ColiderCheck : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Wall"))
+        if (other.gameObject.CompareTag("Wall"))
         {
             PlayerEvents.instance.DeathEvent.Invoke(); 
         }
     }
+    
 
 
     /*
