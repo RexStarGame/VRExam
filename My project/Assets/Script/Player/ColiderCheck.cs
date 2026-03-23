@@ -3,6 +3,16 @@ using System.Collections;
 
 public class ColiderCheck : MonoBehaviour
 {
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            PlayerEvents.instance.DeathEvent.Invoke(); 
+        }
+    }
+
+
+    /*
     [Header("Lyd Indstillinger")]
     
     public AudioSource backgroundMusic;
@@ -56,4 +66,5 @@ public class ColiderCheck : MonoBehaviour
 
         return hitDirection;
     }
+    */
 }
