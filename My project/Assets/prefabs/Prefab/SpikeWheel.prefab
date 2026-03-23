@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 33690678258760251}
   - component: {fileID: 7682730470895432140}
   m_Layer: 0
-  m_Name: SpkieWheel
+  m_Name: SpikeWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
