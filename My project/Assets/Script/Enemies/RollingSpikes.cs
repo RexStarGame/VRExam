@@ -12,7 +12,7 @@ public class RollingSpikes : MonoBehaviour
     [SerializeField] private string playerTag = "Player";
 
     [Header("Lyd Indstillinger")]
-    public AudioSource backgroundMusic;
+    [SerializeField] public AudioSource backgroundMusic;
     [Header("Movement Between A and B")]
     [SerializeField] private Transform pointA;
     [SerializeField] private Transform pointB;
