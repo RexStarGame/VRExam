@@ -156,7 +156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forwardSpeed: 10
   sideSpeed: 7
-  rb: {fileID: 0}
+  rb: {fileID: 4858159169620181653}
   jumpVelocity: 10
   gravityMultiplier: 7.5
   flipSpeed: 360
