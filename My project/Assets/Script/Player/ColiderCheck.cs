@@ -4,20 +4,38 @@ using System.Collections;
 public class ColiderCheck : MonoBehaviour
 {
     [Header("Debug")]
-    [SerializeField] private bool debugMode;
+    [SerializeField] private bool debugMode = true; // Sat til true som standard mens du tester
+
     private void OnTriggerEnter(Collider other)
     {
+        // 1. Skriv i konsollen HVER gang vi rører ved NOGET, uanset hvad det er (hvis debug mode er på)
+        if (debugMode)
+        {
+            Debug.Log($"<color=yellow>[DEBUG]</color> Spilleren ramte: <b>{other.gameObject.name}</b> | Tag: <i>{other.tag}</i>");
+        }
+
+        // 2. Tjek om det vi ramte er en "Wall" (Døds-logikken)
         if (other.gameObject.CompareTag("Wall"))
         {
-            PlayerEvents.instance.DeathEvent.Invoke(); 
+            // Skriv en ekstra tydelig rød besked, når døden faktisk indtræffer
+            if (debugMode)
+            {
+                Debug.Log($"<color=red>[DØD]</color> Døds-event udløst af: <b>{other.gameObject.name}</b>!");
+            }
+
+            PlayerEvents.instance.DeathEvent.Invoke();
+
+            // 3. Farv objektet rødt
             if (debugMode)
             {
                 Renderer otherRenderer = other.gameObject.GetComponent<Renderer>();
+
                 if (otherRenderer != null)
                 {
                     otherRenderer.material.color = Color.red;
                 }
-                else
+                // TILFØJET: Tjek at parent faktisk eksisterer, før vi beder om dens Renderer
+                else if (other.transform.parent != null)
                 {
                     otherRenderer = other.transform.parent.GetComponent<Renderer>();
                     if (otherRenderer != null)
@@ -28,62 +46,4 @@ public class ColiderCheck : MonoBehaviour
             }
         }
     }
-    
-
-
-    /*
-    [Header("Lyd Indstillinger")]
-    
-    public AudioSource backgroundMusic;
-    void OnCollisionEnter(Collision collision)
-    {
-        if (!collision.gameObject.CompareTag("Player"))
-            return;
-
-        HitDirection hitDir = ReturnDirection(collision);
-
-        if (hitDir != HitDirection.Top && hitDir != HitDirection.Bottom && hitDir != HitDirection.None)
-        {
-            CubeMovement cubeMovement = collision.collider.GetComponentInParent<CubeMovement>();
-            if (cubeMovement != null)
-                cubeMovement.enabled = false;
-
-            Rigidbody playerRb = collision.collider.GetComponentInParent<Rigidbody>();
-            if (playerRb != null)
-            {
-                playerRb.linearVelocity = Vector3.zero;
-                playerRb.angularVelocity = Vector3.zero;
-            }
-            StopMusic();
-            PlayerEvents.instance.DeathEvent.Invoke();
-
-        }
-    }
-    private void StopMusic()
-    {
-        if (backgroundMusic != null && backgroundMusic.isPlaying)
-        {
-            backgroundMusic.Stop();
-        }
-    }
-
-    private enum HitDirection { None, Top, Bottom, Forward, Back, Left, Right }
-
-    private HitDirection ReturnDirection(Collision collision)
-    {
-
-        HitDirection hitDirection = HitDirection.None;
-
-        Vector3 normal = collision.GetContact(0).normal;
-
-        if (Vector3.Angle(normal, transform.up) < 45f) { hitDirection = HitDirection.Top; }
-        else if (Vector3.Angle(normal, -transform.up) < 45f) { hitDirection = HitDirection.Bottom; }
-        else if (Vector3.Angle(normal, transform.forward) < 45f) { hitDirection = HitDirection.Forward; }
-        else if (Vector3.Angle(normal, -transform.forward) < 45f) { hitDirection = HitDirection.Back; }
-        else if (Vector3.Angle(normal, transform.right) < 45f) { hitDirection = HitDirection.Right; }
-        else if (Vector3.Angle(normal, -transform.right) < 45f) { hitDirection = HitDirection.Left; }
-
-        return hitDirection;
-    }
-    */
 }

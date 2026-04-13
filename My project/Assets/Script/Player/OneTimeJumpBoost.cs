@@ -3,8 +3,8 @@ using UnityEngine;
 public class OneTimeJumpBoost : MonoBehaviour
 {
     [Header("Jump Settings")]
-    [Tooltip("How much force to apply when the player jumps.")]
-    public float superJumpForce = 15f;
+    [Tooltip("Hvor meget fart (velocity) spilleren får opad.")]
+    public float superJumpVelocity = 15f; // Omdøbt fra superJumpForce for at matche den nye logik
 
     private bool isPlayerInZone = false;
     private Rigidbody playerRb;
@@ -22,8 +22,10 @@ public class OneTimeJumpBoost : MonoBehaviour
                     audioManager.PlayJumpSound();
                 }
 
-                playerRb.linearVelocity = new Vector3(playerRb.linearVelocity.x, 0, playerRb.linearVelocity.z);
-                playerRb.AddForce(Vector3.up * superJumpForce, ForceMode.Impulse);
+                // LØSNINGEN: Vi sætter hastigheden direkte i stedet for at bruge AddForce!
+                // På denne måde er det ligegyldigt, om vi rører ved 1, 2 eller 5 boost-pads. 
+                // Hastigheden bliver altid sat til præcis 'superJumpVelocity' (f.eks. 15).
+                playerRb.linearVelocity = new Vector3(playerRb.linearVelocity.x, superJumpVelocity, playerRb.linearVelocity.z);
 
                 Destroy(gameObject);
             }

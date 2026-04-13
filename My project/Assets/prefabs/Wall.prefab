@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 602403157444958579}
   - component: {fileID: 2332377801906449869}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ GameObject:
   - component: {fileID: 6892080045335437394}
   - component: {fileID: 449783329333060611}
   - component: {fileID: 7002798137707087818}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall
   m_TagString: Ground
   m_Icon: {fileID: 0}
