@@ -25,7 +25,7 @@ public class OneTimeJumpBoost : MonoBehaviour
                 playerRb.linearVelocity = new Vector3(playerRb.linearVelocity.x, 0, playerRb.linearVelocity.z);
                 playerRb.AddForce(Vector3.up * superJumpForce, ForceMode.Impulse);
 
-                Destroy(gameObject);
+                gameObject.SetActive(false);
             }
         }
     }
