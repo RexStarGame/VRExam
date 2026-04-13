@@ -27,7 +27,7 @@ public class OneTimeJumpBoost : MonoBehaviour
                 // Hastigheden bliver altid sat til præcis 'superJumpVelocity' (f.eks. 15).
                 playerRb.linearVelocity = new Vector3(playerRb.linearVelocity.x, superJumpVelocity, playerRb.linearVelocity.z);
 
-                Destroy(gameObject);
+                gameObject.SetActive(false);
             }
         }
     }
