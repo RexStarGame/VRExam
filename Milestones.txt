@@ -14,3 +14,5 @@ menu
 	death screen	-L
 	win screen	-L
 	Level select	-P
+
+ide til collider fix, tjek for collision med objektet og stop velocity nedad
