@@ -147135,7 +147135,7 @@ PrefabInstance:
       objectReference: {fileID: 543060967}
     - target: {fileID: 1877852250012196788, guid: a29f551ac035daa48b2b0246e07d7d9d, type: 3}
       propertyPath: forwardSpeed
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1877852250012196788, guid: a29f551ac035daa48b2b0246e07d7d9d, type: 3}
       propertyPath: playerEvents
@@ -147151,15 +147151,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8243352143462970373, guid: a29f551ac035daa48b2b0246e07d7d9d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 534.16
+      value: -59.3
       objectReference: {fileID: 0}
     - target: {fileID: 8243352143462970373, guid: a29f551ac035daa48b2b0246e07d7d9d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.53
+      value: 0.34
       objectReference: {fileID: 0}
     - target: {fileID: 8243352143462970373, guid: a29f551ac035daa48b2b0246e07d7d9d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7
+      value: 0.58
       objectReference: {fileID: 0}
     - target: {fileID: 8243352143462970373, guid: a29f551ac035daa48b2b0246e07d7d9d, type: 3}
       propertyPath: m_LocalRotation.w
