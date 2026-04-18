@@ -10959,7 +10959,7 @@ MonoBehaviour:
   audioSource: {fileID: 1925883609}
   sensitivity: 10090.9
   threshold: 0.5
-  beatCooldown: 0.6
+  beatCooldown: 0.8
   pulseColors:
   - {r: 0.4433962, g: 0, b: 0, a: 0}
   - {r: 0, g: 0.75631857, b: 1, a: 0}
@@ -10975,6 +10975,9 @@ MonoBehaviour:
   - {r: 1, g: 1, b: 1, a: 0}
   - {r: 0, g: 1, b: 0.99030876, a: 0}
   - {r: 0, g: 0.04085064, b: 1, a: 0}
+  - {r: 0, g: 1, b: 0.46605062, a: 0}
+  - {r: 1, g: 0.094653934, b: 0, a: 0}
+  - {r: 1, g: 0.5000555, b: 0.4481132, a: 0}
 --- !u!1001 &1218418716
 PrefabInstance:
   m_ObjectHideFlags: 0
