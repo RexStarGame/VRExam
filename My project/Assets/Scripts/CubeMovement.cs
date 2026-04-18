@@ -26,7 +26,7 @@ public class CubeMovement : MonoBehaviour
     [Header("Ground Detection (NY)")]
     [Tooltip("Husk at oprette et 'Ground' Layer i Unity og sæt dine gulve/lofter til dette!")]
     [SerializeField] private LayerMask groundLayer;
-    [SerializeField] private float castDistance = 0.55f;
+    //[SerializeField] private float castDistance = 0.55f;
 
     private bool wasGrounded;
 
