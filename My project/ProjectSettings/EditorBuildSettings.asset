@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelSelectScene.unity
     guid: bfe9f2c3737cada44872a0eb80b0bc9d
   - enabled: 1
-    path: Assets/Scenes/Patrick - Level 1 test.unity
-    guid: c91c430691f11b44d86288fb78c24833
-  - enabled: 1
     path: Assets/Scenes/William - Level 2 test.unity
     guid: 0a26f3a3fb13ef14bbebeee4d589f259
+  - enabled: 1
+    path: Assets/Scenes/Patrick - Level 1 test.unity
+    guid: c91c430691f11b44d86288fb78c24833
   - enabled: 1
     path: Assets/Scenes/Level 3 test - Leyla.unity
     guid: 9931dceb0d8c48644a2a3d402bfe64ce
