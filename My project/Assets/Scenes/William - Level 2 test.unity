@@ -29054,10 +29054,10 @@ MonoBehaviour:
   sensitivity: 100
   fftWindow: 5
   smoothingSpeed: 12
-  threshold1: 4
-  beatCooldown1: 0.5
-  minHz1: 2
-  maxHz1: 2
+  threshold1: 12.7
+  beatCooldown1: 0.34
+  minHz1: 55
+  maxHz1: 55
   pulseColorsTier1:
   - {r: 1, g: 0, b: 0, a: 0}
   - {r: 0.9019608, g: 0, b: 0, a: 0}
@@ -29068,24 +29068,24 @@ MonoBehaviour:
   - {r: 0.54901963, g: 0, b: 0, a: 0}
   - {r: 0.47058824, g: 0, b: 0, a: 0}
   - {r: 0.39215687, g: 0, b: 0, a: 0}
-  threshold2: 20
-  beatCooldown2: 0.1
-  minHz2: 20000
-  maxHz2: 20000
+  threshold2: 12.7
+  beatCooldown2: 0.34
+  minHz2: 41.2
+  maxHz2: 41.2
   pulseColorsTier2:
-  - {r: 0.4165337, g: 1, b: 0, a: 0}
-  - {r: 0.21715951, g: 0.7264151, b: 0, a: 0}
-  - {r: 0.0021246963, g: 0.5849056, b: 0, a: 0}
-  - {r: 0, g: 0.4716981, b: 0.007231505, a: 0}
-  threshold3: 30
-  beatCooldown3: 0.2
-  minHz3: 20000
-  maxHz3: 20000
+  - {r: 1, g: 0.26194975, b: 0, a: 0}
+  - {r: 0.7830189, g: 0.20573439, b: 0, a: 0}
+  - {r: 0.6415094, g: 0.16679244, b: 0, a: 0}
+  - {r: 0.509434, g: 0.1335711, b: 0, a: 0}
+  threshold3: 12.7
+  beatCooldown3: 0.34
+  minHz3: 73.42
+  maxHz3: 73.42
   pulseColorsTier3:
-  - {r: 0, g: 0.92019224, b: 1, a: 0}
-  - {r: 0, g: 0.67449784, b: 0.8301887, a: 0}
-  - {r: 0, g: 0.65146196, b: 0.745283, a: 0}
-  - {r: 0, g: 0.3825606, b: 0.4056604, a: 0}
+  - {r: 1, g: 0, b: 0.24495554, a: 0}
+  - {r: 0.8207547, g: 0, b: 0.19955613, a: 0}
+  - {r: 0.6226415, g: 0, b: 0.15193638, a: 0}
+  - {r: 0.5, g: 0, b: 0.12264156, a: 0}
   currentValue1: 0
   currentValue2: 0
   currentValue3: 0
