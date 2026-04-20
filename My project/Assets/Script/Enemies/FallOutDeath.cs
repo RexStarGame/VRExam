@@ -14,7 +14,7 @@ public class FallOutDeath : MonoBehaviour
         HitDirection hitDir = ReturnDirection(collision);
         Debug.Log(collision.collider.name + " hit" + hitDir);
 
-        if (hitDir != HitDirection.Top && hitDir != HitDirection.None) // hvis Hitdir er bottom eller none så er spilleren ikke død.
+        if (hitDir != HitDirection.Top || hitDir != HitDirection.Bottom && hitDir != HitDirection.None) // hvis Hitdir er bottom eller none så er spilleren ikke død.
         {
             CubeMovement cubeMovement = collision.collider.GetComponentInParent<CubeMovement>();
             if (cubeMovement != null)

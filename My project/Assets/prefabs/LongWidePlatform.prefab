@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 888814897585805033}
   - component: {fileID: 5955689763981694857}
   - component: {fileID: 529402878106391808}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 6939617182395237289}
   - component: {fileID: 3482392484284189027}
   - component: {fileID: 83980881274820461}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -228,9 +228,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8573352233504588074}
   - component: {fileID: 2355179784185281832}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 2769426021753688800}
   - component: {fileID: 8358742218391767475}
   - component: {fileID: 657609468905755269}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -392,7 +392,7 @@ GameObject:
   - component: {fileID: 7529494306002377808}
   - component: {fileID: 5808779852127864163}
   - component: {fileID: 5294319002882792950}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (12)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -501,7 +501,7 @@ GameObject:
   - component: {fileID: 437046966640177774}
   - component: {fileID: 1553693183195600423}
   - component: {fileID: 7052010331652125919}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -608,9 +608,9 @@ GameObject:
   m_Component:
   - component: {fileID: 9078576822653248651}
   - component: {fileID: 4307363175876199353}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -663,7 +663,7 @@ GameObject:
   - component: {fileID: 5361049878541533946}
   - component: {fileID: 2139892422766208221}
   - component: {fileID: 6677180004695460843}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -772,7 +772,7 @@ GameObject:
   - component: {fileID: 1206898585873464918}
   - component: {fileID: 3587794838053241149}
   - component: {fileID: 2300035340614126161}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -881,7 +881,7 @@ GameObject:
   - component: {fileID: 3533227528873673613}
   - component: {fileID: 7483622416846939430}
   - component: {fileID: 6408488177870524272}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (14)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -990,7 +990,7 @@ GameObject:
   - component: {fileID: 2883273745257787964}
   - component: {fileID: 5825083258185005371}
   - component: {fileID: 7210363155402885306}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (15)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1099,7 +1099,7 @@ GameObject:
   - component: {fileID: 7530758327212366352}
   - component: {fileID: 5109014774343879734}
   - component: {fileID: 2703289135210845151}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (14)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1208,7 +1208,7 @@ GameObject:
   - component: {fileID: 4863552174408195353}
   - component: {fileID: 2932668811482080609}
   - component: {fileID: 3854265651403213971}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (12)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1315,9 +1315,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3764757059717154636}
   - component: {fileID: 1906953959298493209}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1368,9 +1368,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2987445248344361596}
   - component: {fileID: 6002825409541609958}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1421,9 +1421,9 @@ GameObject:
   m_Component:
   - component: {fileID: 423350878570944531}
   - component: {fileID: 7189351430454638188}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1476,7 +1476,7 @@ GameObject:
   - component: {fileID: 6049055777625367072}
   - component: {fileID: 3545455993765221702}
   - component: {fileID: 6058261706105216812}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (14)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1583,9 +1583,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5124213920722453090}
   - component: {fileID: 4785105787793898804}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1638,7 +1638,7 @@ GameObject:
   - component: {fileID: 1345434955437903797}
   - component: {fileID: 5598571904417031802}
   - component: {fileID: 4731878329967215970}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (13)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1747,7 +1747,7 @@ GameObject:
   - component: {fileID: 1467631658070245590}
   - component: {fileID: 8596556171656946607}
   - component: {fileID: 4895021207536881857}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1854,9 +1854,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4222080875290586458}
   - component: {fileID: 642082417719700023}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1907,9 +1907,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8723743691205379603}
   - component: {fileID: 708639412305083433}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1960,9 +1960,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6717141867980706459}
   - component: {fileID: 7930403482520870152}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2015,7 +2015,7 @@ GameObject:
   - component: {fileID: 6357095931480660427}
   - component: {fileID: 9175730741928429550}
   - component: {fileID: 4389139290639531705}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2122,9 +2122,9 @@ GameObject:
   m_Component:
   - component: {fileID: 623472150199208495}
   - component: {fileID: 7585223557265994062}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2175,9 +2175,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3292299913832483584}
   - component: {fileID: 6495659571080322955}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2230,7 +2230,7 @@ GameObject:
   - component: {fileID: 8851808460087826190}
   - component: {fileID: 6712951648275606723}
   - component: {fileID: 5783367683479451173}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2337,9 +2337,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1216727044214529950}
   - component: {fileID: 1131082110614933156}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2392,7 +2392,7 @@ GameObject:
   - component: {fileID: 1077272928158038270}
   - component: {fileID: 2431649802610386615}
   - component: {fileID: 4155035148123357040}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2499,9 +2499,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3903428262480749245}
   - component: {fileID: 5127639120220432241}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2554,7 +2554,7 @@ GameObject:
   - component: {fileID: 5992241291870682366}
   - component: {fileID: 8544119125319983964}
   - component: {fileID: 8201667442074151197}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2663,7 +2663,7 @@ GameObject:
   - component: {fileID: 1431376598516766771}
   - component: {fileID: 5059864119858287712}
   - component: {fileID: 3092298695501361065}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2770,9 +2770,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6625022900639025696}
   - component: {fileID: 8653507469311826916}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2825,7 +2825,7 @@ GameObject:
   - component: {fileID: 6765703722480431632}
   - component: {fileID: 8758864553099281188}
   - component: {fileID: 7709727055800395733}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (15)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2932,9 +2932,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8557940618977726451}
   - component: {fileID: 5990038553116379779}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2985,9 +2985,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2864086718677742202}
   - component: {fileID: 1043039005818540171}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3040,7 +3040,7 @@ GameObject:
   - component: {fileID: 1179983453615605727}
   - component: {fileID: 7465469872910539973}
   - component: {fileID: 2405612472691326464}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3147,9 +3147,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1822388765993718067}
   - component: {fileID: 7012140101456182631}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3200,9 +3200,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1627684204564498368}
   - component: {fileID: 7860193323963330705}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3253,9 +3253,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3251120212137470365}
   - component: {fileID: 6362906095135395013}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3306,9 +3306,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6977403314719084969}
   - component: {fileID: 4357998419763682396}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3361,7 +3361,7 @@ GameObject:
   - component: {fileID: 6275686282859467415}
   - component: {fileID: 5494081545102111572}
   - component: {fileID: 329120342066170586}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (13)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3470,7 +3470,7 @@ GameObject:
   - component: {fileID: 1548349457965295683}
   - component: {fileID: 4314007508743459054}
   - component: {fileID: 1060484711348324892}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (10)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3577,9 +3577,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3533511140258026804}
   - component: {fileID: 1524054015911877483}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3630,9 +3630,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2612404703493029242}
   - component: {fileID: 4189293713298440932}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3683,9 +3683,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5068809844265407439}
   - component: {fileID: 445329421421633732}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3736,9 +3736,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1343405299554840864}
   - component: {fileID: 2528737652780027428}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3788,7 +3788,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 507522837482548112}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LongPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3854,7 +3854,7 @@ GameObject:
   - component: {fileID: 4904708227417239939}
   - component: {fileID: 6418925954038516775}
   - component: {fileID: 4534082952264031707}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (16)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3961,9 +3961,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1211069459920221207}
   - component: {fileID: 2752039257833476268}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4016,7 +4016,7 @@ GameObject:
   - component: {fileID: 7390960517234102130}
   - component: {fileID: 2818002810606979209}
   - component: {fileID: 6848747605762498981}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4125,7 +4125,7 @@ GameObject:
   - component: {fileID: 334826757049691568}
   - component: {fileID: 541574408984624310}
   - component: {fileID: 1309496374434576475}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (16)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4232,9 +4232,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6194938781880944437}
   - component: {fileID: 8274888397386810665}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4285,9 +4285,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2279182600959431581}
   - component: {fileID: 633996339572926545}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4338,9 +4338,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5097472223481369621}
   - component: {fileID: 3079895437883401759}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4393,7 +4393,7 @@ GameObject:
   - component: {fileID: 4143072202267478955}
   - component: {fileID: 5940969012964392700}
   - component: {fileID: 8635274873542904444}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4502,7 +4502,7 @@ GameObject:
   - component: {fileID: 5936040147393496746}
   - component: {fileID: 7804980226736533950}
   - component: {fileID: 4559799591128126789}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (11)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4609,9 +4609,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4104588516623174671}
   - component: {fileID: 333477662352694752}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4662,9 +4662,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1762903595098116311}
   - component: {fileID: 1174721351413619446}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4717,7 +4717,7 @@ GameObject:
   - component: {fileID: 7877231018294514916}
   - component: {fileID: 4776779518489260066}
   - component: {fileID: 37833596553185460}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4824,9 +4824,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8587380462173202029}
   - component: {fileID: 6944295982426554972}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4879,7 +4879,7 @@ GameObject:
   - component: {fileID: 8194612541409113910}
   - component: {fileID: 5008803450784511282}
   - component: {fileID: 6388137435830626819}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4986,9 +4986,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5070605229770247015}
   - component: {fileID: 4875430090725150021}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5041,7 +5041,7 @@ GameObject:
   - component: {fileID: 9026249515657683231}
   - component: {fileID: 875734160900648146}
   - component: {fileID: 4250020109771033884}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5150,7 +5150,7 @@ GameObject:
   - component: {fileID: 7570837038903814957}
   - component: {fileID: 9180979158478664442}
   - component: {fileID: 3905742785357974454}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (12)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5259,7 +5259,7 @@ GameObject:
   - component: {fileID: 6102006957791873787}
   - component: {fileID: 3420704253720317640}
   - component: {fileID: 419474630531380711}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5368,7 +5368,7 @@ GameObject:
   - component: {fileID: 4862518653428760652}
   - component: {fileID: 751196152938423273}
   - component: {fileID: 6232467523919024594}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5475,9 +5475,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2362258814370777291}
   - component: {fileID: 7341572001396753928}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5528,9 +5528,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1880065022404711545}
   - component: {fileID: 5931356085363529853}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5581,9 +5581,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2952669280396240338}
   - component: {fileID: 3738924575951817133}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5634,9 +5634,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5378101774550148154}
   - component: {fileID: 4336771442394276756}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5689,7 +5689,7 @@ GameObject:
   - component: {fileID: 8105850420364482452}
   - component: {fileID: 8925099193090055247}
   - component: {fileID: 5981215923740302322}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5798,7 +5798,7 @@ GameObject:
   - component: {fileID: 5315249187715146247}
   - component: {fileID: 5475486229853048692}
   - component: {fileID: 7173947332162903226}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5905,9 +5905,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2829835585079109701}
   - component: {fileID: 4998392819939845744}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5960,7 +5960,7 @@ GameObject:
   - component: {fileID: 8401487628252360669}
   - component: {fileID: 1545270175437590864}
   - component: {fileID: 2628216273374683987}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (9)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6069,7 +6069,7 @@ GameObject:
   - component: {fileID: 2912622828141589766}
   - component: {fileID: 4409641877452472121}
   - component: {fileID: 7609940113052193414}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6178,7 +6178,7 @@ GameObject:
   - component: {fileID: 1363589963872622228}
   - component: {fileID: 1063426063695078391}
   - component: {fileID: 1368017812073187022}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (10)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6287,7 +6287,7 @@ GameObject:
   - component: {fileID: 3258700861525133433}
   - component: {fileID: 5248536085657970542}
   - component: {fileID: 8391022116776840223}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6396,7 +6396,7 @@ GameObject:
   - component: {fileID: 9131548877306037044}
   - component: {fileID: 1837533154428073705}
   - component: {fileID: 2631193424057810941}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6503,9 +6503,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3138255958376201066}
   - component: {fileID: 8699454673801271608}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6556,9 +6556,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3763272149068881703}
   - component: {fileID: 3081590314713520563}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6609,9 +6609,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5349351082588679260}
   - component: {fileID: 2213854495229233370}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6662,9 +6662,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5516137598652177890}
   - component: {fileID: 6134556377404968919}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6715,9 +6715,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4676880987044114783}
   - component: {fileID: 7704137069536696040}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6768,9 +6768,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1856237939992910448}
   - component: {fileID: 2117468932943067625}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6823,7 +6823,7 @@ GameObject:
   - component: {fileID: 8987241713657524598}
   - component: {fileID: 4274359070288636873}
   - component: {fileID: 4597435015950987975}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6932,7 +6932,7 @@ GameObject:
   - component: {fileID: 2800834342903362855}
   - component: {fileID: 8211487257566570055}
   - component: {fileID: 6491140457573576370}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (9)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7041,7 +7041,7 @@ GameObject:
   - component: {fileID: 453199865923149003}
   - component: {fileID: 8322680971442880906}
   - component: {fileID: 6335010262608693430}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7148,9 +7148,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5957377441427766037}
   - component: {fileID: 982338477288270191}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7203,7 +7203,7 @@ GameObject:
   - component: {fileID: 2811761149057051636}
   - component: {fileID: 7978203246597936696}
   - component: {fileID: 1716169554062148504}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7310,9 +7310,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1442686913182601093}
   - component: {fileID: 6170255630797449017}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7363,9 +7363,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8714900804290902878}
   - component: {fileID: 1695893324485310096}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7418,7 +7418,7 @@ GameObject:
   - component: {fileID: 534558141990950344}
   - component: {fileID: 82235179982697303}
   - component: {fileID: 4346971478216908368}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7527,7 +7527,7 @@ GameObject:
   - component: {fileID: 3288184482472411316}
   - component: {fileID: 2308233193712421134}
   - component: {fileID: 1418614633925816671}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7634,9 +7634,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7293923426108469570}
   - component: {fileID: 3805859433154998023}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7689,7 +7689,7 @@ GameObject:
   - component: {fileID: 4693467447956073951}
   - component: {fileID: 8834471905898096633}
   - component: {fileID: 7246475020445583099}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7798,7 +7798,7 @@ GameObject:
   - component: {fileID: 5534462791771508350}
   - component: {fileID: 6318932736858931352}
   - component: {fileID: 7639385212912887008}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (9)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7907,7 +7907,7 @@ GameObject:
   - component: {fileID: 1785216231677047961}
   - component: {fileID: 8558748366314285176}
   - component: {fileID: 3069193469959202052}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8014,9 +8014,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1552144695597061863}
   - component: {fileID: 6430614615868406817}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8067,9 +8067,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3822128109812127048}
   - component: {fileID: 5351029818849713539}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8122,7 +8122,7 @@ GameObject:
   - component: {fileID: 6331728176759367195}
   - component: {fileID: 985705000382244410}
   - component: {fileID: 1182870151860152330}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8231,7 +8231,7 @@ GameObject:
   - component: {fileID: 4532996924587808252}
   - component: {fileID: 2112460140771029040}
   - component: {fileID: 4162554267837693628}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8338,9 +8338,9 @@ GameObject:
   m_Component:
   - component: {fileID: 184331253558882522}
   - component: {fileID: 8894329233713241121}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8393,7 +8393,7 @@ GameObject:
   - component: {fileID: 6667855005251544714}
   - component: {fileID: 9022331797752365197}
   - component: {fileID: 2411699093170585951}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (10)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8500,9 +8500,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7087395098481225215}
   - component: {fileID: 4679244394725237588}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8555,7 +8555,7 @@ GameObject:
   - component: {fileID: 2929173455289085055}
   - component: {fileID: 4086747371617705979}
   - component: {fileID: 6930785450838057291}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8662,9 +8662,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1199678483049443733}
   - component: {fileID: 2548962337897184207}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8717,7 +8717,7 @@ GameObject:
   - component: {fileID: 7210295092857909355}
   - component: {fileID: 295981250937725783}
   - component: {fileID: 5677977377237160205}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8824,9 +8824,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2374393730102283392}
   - component: {fileID: 4886861159191726446}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8879,7 +8879,7 @@ GameObject:
   - component: {fileID: 6242796251594535984}
   - component: {fileID: 4176919029038279574}
   - component: {fileID: 5041514876862262443}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (15)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8988,7 +8988,7 @@ GameObject:
   - component: {fileID: 5496323291916444523}
   - component: {fileID: 3654852687502049159}
   - component: {fileID: 5380637054152365857}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -9095,9 +9095,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4137683737308008657}
   - component: {fileID: 2458304563845167448}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9148,9 +9148,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8550329803086700652}
   - component: {fileID: 591431842112089655}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9203,7 +9203,7 @@ GameObject:
   - component: {fileID: 8326513582353927711}
   - component: {fileID: 5683665923901616496}
   - component: {fileID: 9117987005841107495}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -9310,9 +9310,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4579624660061077357}
   - component: {fileID: 6888088963307819067}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9365,7 +9365,7 @@ GameObject:
   - component: {fileID: 1423867709699701477}
   - component: {fileID: 3368403601893096840}
   - component: {fileID: 3566684827204904876}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -9472,9 +9472,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3266115288475035819}
   - component: {fileID: 1375796697107391224}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9527,7 +9527,7 @@ GameObject:
   - component: {fileID: 797073753998846013}
   - component: {fileID: 7504881777028488883}
   - component: {fileID: 4962381662098473458}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (16)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -9636,7 +9636,7 @@ GameObject:
   - component: {fileID: 7919355970006830614}
   - component: {fileID: 5279327006954755981}
   - component: {fileID: 4772474746601966288}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (11)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -9743,9 +9743,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7372209554691861055}
   - component: {fileID: 1818816141223842295}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9796,9 +9796,9 @@ GameObject:
   m_Component:
   - component: {fileID: 9038986633806809590}
   - component: {fileID: 6233600924122750620}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9849,9 +9849,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4794984387069920458}
   - component: {fileID: 421644922982068200}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9904,7 +9904,7 @@ GameObject:
   - component: {fileID: 4229313754723823997}
   - component: {fileID: 6222458375249874961}
   - component: {fileID: 2934292785665378446}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (13)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -10011,9 +10011,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8922460231256745392}
   - component: {fileID: 3582247943276122442}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10066,7 +10066,7 @@ GameObject:
   - component: {fileID: 9031523320249361201}
   - component: {fileID: 7037078666454720568}
   - component: {fileID: 1499658274061546946}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -10175,7 +10175,7 @@ GameObject:
   - component: {fileID: 3533648014924858399}
   - component: {fileID: 7954094974696289080}
   - component: {fileID: 4992133194567108283}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -10284,7 +10284,7 @@ GameObject:
   - component: {fileID: 3686230928641592591}
   - component: {fileID: 824893788636323967}
   - component: {fileID: 3618656337011157625}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -10391,9 +10391,9 @@ GameObject:
   m_Component:
   - component: {fileID: 832631160661548255}
   - component: {fileID: 4480417266297474737}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10444,9 +10444,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1414730687386272765}
   - component: {fileID: 783777726386643084}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10499,7 +10499,7 @@ GameObject:
   - component: {fileID: 5749313946938673640}
   - component: {fileID: 3716137337043363219}
   - component: {fileID: 1555572395440504393}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -10608,7 +10608,7 @@ GameObject:
   - component: {fileID: 437847181236411742}
   - component: {fileID: 2979718738298657935}
   - component: {fileID: 2596754983217038676}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -10715,9 +10715,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8666874929566752064}
   - component: {fileID: 5584926173359594444}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10768,9 +10768,9 @@ GameObject:
   m_Component:
   - component: {fileID: 377977885300961274}
   - component: {fileID: 3052350118075186467}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10821,9 +10821,9 @@ GameObject:
   m_Component:
   - component: {fileID: 628250927843591383}
   - component: {fileID: 1287160542177618828}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10873,7 +10873,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6728056412051302328}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LongWidePlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10888,7 +10888,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8525293079795101669}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 186.3079, y: 1.7274556, z: 5.840001}
   m_LocalScale: {x: 2, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
@@ -10898,7 +10898,7 @@ Transform:
   - {fileID: 507522837482548112}
   - {fileID: 1250604369629951547}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &8551446241336945936
 GameObject:
   m_ObjectHideFlags: 0
@@ -10909,9 +10909,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7490755710629425449}
   - component: {fileID: 2256025769228020207}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10962,9 +10962,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5338910284622034672}
   - component: {fileID: 5271859398445920799}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11015,9 +11015,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1879539835223465108}
   - component: {fileID: 4220094087149091431}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11068,9 +11068,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5695171883624737376}
   - component: {fileID: 1606795624049306689}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11121,9 +11121,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7183646549710227927}
   - component: {fileID: 3638827927813953629}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11176,7 +11176,7 @@ GameObject:
   - component: {fileID: 1881958492148562382}
   - component: {fileID: 6539993899206350410}
   - component: {fileID: 7017949998171325628}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -11285,7 +11285,7 @@ GameObject:
   - component: {fileID: 1042123049343392312}
   - component: {fileID: 8969397773523465493}
   - component: {fileID: 8082356653101356394}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -11394,7 +11394,7 @@ GameObject:
   - component: {fileID: 6758269930808228501}
   - component: {fileID: 2713249267958843487}
   - component: {fileID: 9157334458964458953}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (11)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -11503,7 +11503,7 @@ GameObject:
   - component: {fileID: 8199106924695897594}
   - component: {fileID: 6221214925968677746}
   - component: {fileID: 4389466951459756189}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -11610,9 +11610,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6176113598119779075}
   - component: {fileID: 4433242213428495583}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathColliderObject
-  m_TagString: Wall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11662,7 +11662,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1116266604996675168}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MediumPlatform (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11712,7 +11712,7 @@ GameObject:
   - component: {fileID: 9127495183967697086}
   - component: {fileID: 2064830345022301228}
   - component: {fileID: 7028627318692665737}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -11818,7 +11818,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1250604369629951547}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LongPlatform (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11865,7 +11865,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2261351449879084012}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MediumPlatform (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

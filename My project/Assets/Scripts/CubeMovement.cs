@@ -14,24 +14,22 @@ public class CubeMovement : MonoBehaviour
     [SerializeField] private bool isGrounded = true;
     [SerializeField] bool otherGravity = false;
 
-    [Header("Portal")]
+    [Header("Portal & State")]
     [SerializeField] private bool gravityReversed;
 
-    [Header("Audio")]
-    [SerializeField] private JumpAudioManager audioManager;
+    // NYT: Buffer variabler
+    private float jumpBufferCounter;
+    private float jumpBufferTime = 0.15f;
+    private float jumpCooldownTimer = 0f;
 
-    [Header("Event")]
+    [Header("Audio & Events")]
+    [SerializeField] private JumpAudioManager audioManager;
     [SerializeField] private PlayerEvents playerEvents;
 
-    [Header("Ground Detection (NY)")]
-    [Tooltip("Husk at oprette et 'Ground' Layer i Unity og sæt dine gulve/lofter til dette!")]
+    [Header("Ground Detection")]
     [SerializeField] private LayerMask groundLayer;
-    [SerializeField] private float castDistance = 0.55f;
 
     private bool wasGrounded;
-
-    // NYT: En timer der forhindrer os i at lande i det millisekund vi hopper
-    private float jumpCooldownTimer = 0f;
 
     void Start()
     {
@@ -44,41 +42,29 @@ public class CubeMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Tjekker hele tiden om vi er på jorden
         CheckGrounded();
 
-        // Forward movement
+        // Fremadgående bevægelse
         Vector3 newPosition = rb.position + Vector3.right * forwardSpeed * Time.fixedDeltaTime;
 
-        // Side movement
-        if (Input.GetKey(KeyCode.A))
-            newPosition += sideSpeed * Time.fixedDeltaTime * Vector3.forward;
+        // Side bevægelse (A/D)
+        float sideInput = 0f;
 
-        if (Input.GetKey(KeyCode.D))
-            newPosition += sideSpeed * Time.fixedDeltaTime * Vector3.back;
+        if (Input.GetKey(KeyCode.A)) sideInput = 1f;
+        if (Input.GetKey(KeyCode.D)) sideInput = -1f;
+
+        // Flip controls when upside down
+        if (gravityReversed)
+            sideInput *= -1f;
+
+        newPosition += sideInput * sideSpeed * Time.fixedDeltaTime * Vector3.forward;
 
         rb.MovePosition(newPosition);
 
-        // Gravity while in reverse gravity
-        if (gravityReversed == true)
-        {
-            rb.linearVelocity -= Physics.gravity.y * Time.fixedDeltaTime * Vector3.up;
-        }
-        if (!otherGravity)
-        {
-            // Faster falling
-            if (rb.linearVelocity.y < 0 && gravityReversed == false)
-            {
-                rb.linearVelocity += (gravityMultiplier - 2) * Physics.gravity.y * Time.fixedDeltaTime * Vector3.up;
-            }
-            // and in reverse gravity
-            else if (rb.linearVelocity.y > 0 && gravityReversed == true)
-            {
-                rb.linearVelocity -= (gravityMultiplier - 1) * Physics.gravity.y * Time.fixedDeltaTime * Vector3.up;
-            }
-        }
+        // Tyngdekraft logik
+        ApplyCustomGravity();
 
-        // Rotate in air
+        // Rotation i luften
         if (!isGrounded)
         {
             transform.Rotate(flipSpeed * Time.fixedDeltaTime * -Vector3.forward, Space.Self);
@@ -87,84 +73,84 @@ public class CubeMovement : MonoBehaviour
 
     void Update()
     {
-        // NYT: Tæl vores jump cooldown ned
-        if (jumpCooldownTimer > 0f)
+        // Tæl timere ned
+        if (jumpCooldownTimer > 0f) jumpCooldownTimer -= Time.deltaTime;
+
+        // JUMP BUFFER: Hvis vi trykker Space, starter vi en timer
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            jumpCooldownTimer -= Time.deltaTime;
+            jumpBufferCounter = jumpBufferTime;
+        }
+        else
+        {
+            jumpBufferCounter -= Time.deltaTime;
         }
 
-        // Jump (Vi tjekker nu også, at vores cooldown er slut)
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && jumpCooldownTimer <= 0f)
+        // AUTO-JUMP: Hvis man holder Space nede, skal bufferen blive ved med at være aktiv
+        if (Input.GetKey(KeyCode.Space) && isGrounded)
         {
-            isGrounded = false;
-
-            // Sæt timeren til 0.15 sekunder, så vi får lov til at lette
-            jumpCooldownTimer = 0.15f;
-
-            Debug.Log("<color=cyan>[DEBUG]</color> HOPPER! isGrounded blev sat til false manuelt.");
-
-            // Allow Z rotation while airborne
-            rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY;
-
-            rb.angularVelocity = Vector3.zero;
-
-            if (gravityReversed == false) { rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpVelocity, rb.linearVelocity.z); }
-            else { rb.linearVelocity = new Vector3(rb.linearVelocity.x, -jumpVelocity, rb.linearVelocity.z); }
-
-            if (audioManager != null)
-            {
-                audioManager.PlayJumpSound();
-            }
+            jumpBufferCounter = jumpBufferTime;
         }
+
+        // Tjek om vi må hoppe (Vi har et tryk i bufferen + vi er på jorden + ingen cooldown)
+        if (jumpBufferCounter > 0f && isGrounded && jumpCooldownTimer <= 0f)
+        {
+            ExecuteJump();
+        }
+    }
+
+    private void ExecuteJump()
+    {
+        isGrounded = false;
+        jumpBufferCounter = 0f; // Nulstil bufferen så vi ikke dobbelt-hopper
+        jumpCooldownTimer = 0.1f; // Kort cooldown så vi kan nå at slippe jorden
+
+        // Lås rotation mens vi hopper
+        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY;
+        rb.angularVelocity = Vector3.zero;
+
+        // Beregn jump retning baseret på tyngdekraft
+        float v = gravityReversed ? -jumpVelocity : jumpVelocity;
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, v, rb.linearVelocity.z);
+
+        if (audioManager != null) audioManager.PlayJumpSound();
     }
 
     private void CheckGrounded()
     {
-        // NYT: Hvis vi lige er hoppet, skal vi ignorere jorden!
-        if (jumpCooldownTimer > 0f)
-        {
-            return;
-        }
-
         wasGrounded = isGrounded;
 
         Vector3 direction = gravityReversed ? Vector3.up : Vector3.down;
         Vector3 checkPosition = transform.position + (direction * 0.5f);
-        Vector3 boxHalfExtents = new Vector3(0.45f, 0.2f, 0.45f);
+
+        // Vi bruger en lidt bredere boks (0.48f) for at undgå at falde igennem kanter
+        Vector3 boxHalfExtents = new Vector3(0.48f, 0.1f, 0.48f);
 
         Collider[] hitColliders = Physics.OverlapBox(checkPosition, boxHalfExtents, transform.rotation, groundLayer);
 
-        isGrounded = hitColliders.Length > 0;
+        // Hvis vi lige er hoppet, ignorerer vi jorden et kort øjeblik
+        if (jumpCooldownTimer > 0f)
+        {
+            isGrounded = false;
+        }
+        else
+        {
+            isGrounded = hitColliders.Length > 0;
+        }
 
-        // Landing logic
+        // Landing logik
         if (isGrounded && !wasGrounded)
         {
-            Debug.Log($"<color=green>[DEBUG]</color> JORD REGISTRERET! Terningen landede på: <b>{hitColliders[0].gameObject.name}</b>");
             HandleLanding();
         }
-        else if (!isGrounded && wasGrounded)
-        {
-            Debug.Log("<color=orange>[DEBUG]</color> I LUFTEN! Terningen forlod jorden.");
-        }
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = isGrounded ? Color.green : Color.red;
-
-        Vector3 direction = gravityReversed ? Vector3.up : Vector3.down;
-        Vector3 checkPosition = transform.position + (direction * 0.5f);
-        Vector3 boxHalfExtents = new Vector3(0.45f, 0.2f, 0.45f);
-
-        Gizmos.matrix = Matrix4x4.TRS(checkPosition, transform.rotation, Vector3.one);
-        Gizmos.DrawWireCube(Vector3.zero, boxHalfExtents * 2);
     }
 
     private void HandleLanding()
     {
-        rb.angularVelocity = Vector3.zero;
+        // Stop vertikal bevægelse med det samme for at undgå jitter
         rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
 
+        // Snap rotation til nærmeste 90 grader
         Vector3 rot = transform.eulerAngles;
         rot.z = Mathf.Round(rot.z / 90f) * 90f;
         rot.x = 0f;
@@ -174,62 +160,62 @@ public class CubeMovement : MonoBehaviour
         rb.constraints = RigidbodyConstraints.FreezeRotation;
     }
 
+    private void ApplyCustomGravity()
+    {
+        if (gravityReversed)
+        {
+            rb.linearVelocity -= Physics.gravity.y * Time.fixedDeltaTime * Vector3.up;
+        }
+
+        if (!otherGravity)
+        {
+            if (rb.linearVelocity.y < 0 && !gravityReversed)
+            {
+                rb.linearVelocity += (gravityMultiplier - 2) * Physics.gravity.y * Time.fixedDeltaTime * Vector3.up;
+            }
+            else if (rb.linearVelocity.y > 0 && gravityReversed)
+            {
+                rb.linearVelocity -= (gravityMultiplier - 1) * Physics.gravity.y * Time.fixedDeltaTime * Vector3.up;
+            }
+        }
+    }
+
+    // --- INITIALIZATION METODER (Uændrede) ---
     private void InitializeRigidBody()
     {
         rb = GetComponent<Rigidbody>();
         rb.interpolation = RigidbodyInterpolation.Interpolate;
-        rb.constraints = RigidbodyConstraints.FreezeRotation;
-        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY;
-        rb.interpolation = RigidbodyInterpolation.Interpolate;
-        // TILFØJET LØSNING PÅ TUNNELING:
-        // Tvinger Unity til at beregne kollisioner præcist uden at "glida igennem"
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
+        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY;
     }
 
-
-    private void InitializeAudio()
-    {
-        audioManager = GetComponent<JumpAudioManager>();
-    }
+    private void InitializeAudio() => audioManager = GetComponent<JumpAudioManager>();
 
     private void InitializeCollider()
     {
-        var collider = GetComponent<Collider>();
-        if (collider != null)
-        {
-            PhysicsMaterial mat = new()
-            {
-                bounciness = 0f,
-                frictionCombine = PhysicsMaterialCombine.Multiply,
-                bounceCombine = PhysicsMaterialCombine.Multiply
-            };
-            collider.material = mat;
-        }
-        else
-        {
-            collider = gameObject.AddComponent<BoxCollider>();
-            PhysicsMaterial mat = new()
-            {
-                bounciness = 0f,
-                frictionCombine = PhysicsMaterialCombine.Multiply,
-                bounceCombine = PhysicsMaterialCombine.Multiply
-            };
-            collider.material = mat;
-        }
+        var col = GetComponent<Collider>();
+        PhysicsMaterial mat = new() { bounciness = 0f, frictionCombine = PhysicsMaterialCombine.Multiply };
+        if (col != null) col.material = mat;
     }
 
     private void InitializeEventListeners()
     {
         playerEvents = PlayerEvents.instance;
-        if (playerEvents != null)
-        {
-            playerEvents.GravityEvent.AddListener(OnGravity);
-        }
+        if (playerEvents != null) playerEvents.GravityEvent.AddListener(OnGravity);
     }
 
     private void OnGravity()
     {
         gravityReversed = !gravityReversed;
         rb.useGravity = !gravityReversed;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = isGrounded ? Color.green : Color.red;
+        Vector3 direction = gravityReversed ? Vector3.up : Vector3.down;
+        Vector3 checkPosition = transform.position + (direction * 0.5f);
+        Gizmos.matrix = Matrix4x4.TRS(checkPosition, transform.rotation, Vector3.one);
+        Gizmos.DrawWireCube(Vector3.zero, new Vector3(0.48f * 2, 0.2f, 0.48f * 2));
     }
 }

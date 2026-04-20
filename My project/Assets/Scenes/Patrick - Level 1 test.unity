@@ -6077,7 +6077,6 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  castDistance: 1
 --- !u!114 &156971085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12433,7 +12432,7 @@ PrefabInstance:
       objectReference: {fileID: 589592827}
     - target: {fileID: 6171835681553979166, guid: cfe1c52e39651b04ea5e6bce9a3d1a8b, type: 3}
       propertyPath: nextLevelIndex
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6787458493693204660, guid: cfe1c52e39651b04ea5e6bce9a3d1a8b, type: 3}
       propertyPath: m_LocalScale.z
@@ -50089,6 +50088,12 @@ MonoBehaviour:
   wallLayer:
     serializedVersion: 2
     m_Bits: 8
+  playerCollider: {fileID: 0}
+  castRadius: 0.25
+  maxCastDistance: 6
+  showGizmos: 1
+  gizmoLineColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  gizmoSphereColor: {r: 0, g: 1, b: 1, a: 1}
 --- !u!114 &1230612770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50103,7 +50108,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 156971082}
   offset: {x: -6, y: 5, z: 0}
-  smoothSpeed: 5
+  tiltAngle: 20
+  moveSmoothSpeed: 5
+  rotateSmoothSpeed: 5
 --- !u!114 &1230612771
 MonoBehaviour:
   m_ObjectHideFlags: 0
