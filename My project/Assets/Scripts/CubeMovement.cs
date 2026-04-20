@@ -48,10 +48,16 @@ public class CubeMovement : MonoBehaviour
         Vector3 newPosition = rb.position + Vector3.right * forwardSpeed * Time.fixedDeltaTime;
 
         // Side bevægelse (A/D)
-        if (Input.GetKey(KeyCode.A))
-            newPosition += sideSpeed * Time.fixedDeltaTime * Vector3.forward;
-        if (Input.GetKey(KeyCode.D))
-            newPosition += sideSpeed * Time.fixedDeltaTime * Vector3.back;
+        float sideInput = 0f;
+
+        if (Input.GetKey(KeyCode.A)) sideInput = 1f;
+        if (Input.GetKey(KeyCode.D)) sideInput = -1f;
+
+        // Flip controls when upside down
+        if (gravityReversed)
+            sideInput *= -1f;
+
+        newPosition += sideInput * sideSpeed * Time.fixedDeltaTime * Vector3.forward;
 
         rb.MovePosition(newPosition);
 
