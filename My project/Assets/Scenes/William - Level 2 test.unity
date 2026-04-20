@@ -240,7 +240,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &21532100
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,7 +965,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &40708931
 GameObject:
   m_ObjectHideFlags: 0
@@ -1196,7 +1206,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &49480029
 GameObject:
   m_ObjectHideFlags: 0
@@ -1318,7 +1333,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &54682637
 GameObject:
   m_ObjectHideFlags: 0
@@ -1440,7 +1460,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &54846747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1671,7 +1696,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &59239621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1793,7 +1823,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &59793575 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1351279559945016558, guid: becb0234409970b46996c5a6433d91f4, type: 3}
@@ -3507,7 +3542,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &132048658
 GameObject:
   m_ObjectHideFlags: 0
@@ -4095,7 +4135,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &165918031
 GameObject:
   m_ObjectHideFlags: 0
@@ -4217,7 +4262,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &169481136
 GameObject:
   m_ObjectHideFlags: 0
@@ -4392,7 +4442,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &183731715
 GameObject:
   m_ObjectHideFlags: 0
@@ -4628,7 +4683,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &186547623 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1351279559945016558, guid: becb0234409970b46996c5a6433d91f4, type: 3}
@@ -5132,7 +5192,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1001 &212923982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5816,7 +5881,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &233070785
 GameObject:
   m_ObjectHideFlags: 0
@@ -6535,7 +6605,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &261664633
 GameObject:
   m_ObjectHideFlags: 0
@@ -7377,7 +7452,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &311624481
 GameObject:
   m_ObjectHideFlags: 0
@@ -8212,7 +8292,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &336127972
 GameObject:
   m_ObjectHideFlags: 0
@@ -8440,7 +8525,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &344638758 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1351279559945016558, guid: becb0234409970b46996c5a6433d91f4, type: 3}
@@ -9606,7 +9696,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &409872170 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1351279559945016558, guid: becb0234409970b46996c5a6433d91f4, type: 3}
@@ -9900,7 +9995,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &425399849
 GameObject:
   m_ObjectHideFlags: 0
@@ -11003,7 +11103,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &485461707
 GameObject:
   m_ObjectHideFlags: 0
@@ -11534,7 +11639,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1001 &529106064
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12394,7 +12504,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &566761350
 GameObject:
   m_ObjectHideFlags: 0
@@ -13390,7 +13505,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &610924362
 GameObject:
   m_ObjectHideFlags: 0
@@ -14889,7 +15009,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &686094462
 GameObject:
   m_ObjectHideFlags: 0
@@ -15353,7 +15478,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &702021740
 GameObject:
   m_ObjectHideFlags: 0
@@ -16449,7 +16579,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &740601281
 GameObject:
   m_ObjectHideFlags: 0
@@ -16961,7 +17096,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &759264138
 GameObject:
   m_ObjectHideFlags: 0
@@ -17083,7 +17223,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &762697044
 GameObject:
   m_ObjectHideFlags: 0
@@ -17293,7 +17438,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &771360543
 GameObject:
   m_ObjectHideFlags: 0
@@ -17468,7 +17618,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &780675115
 GameObject:
   m_ObjectHideFlags: 0
@@ -18433,7 +18588,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &840878969
 GameObject:
   m_ObjectHideFlags: 0
@@ -19097,7 +19257,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &859710595
 GameObject:
   m_ObjectHideFlags: 0
@@ -20033,6 +20198,8 @@ GameObject:
   - component: {fileID: 901537695}
   - component: {fileID: 901537694}
   - component: {fileID: 901537696}
+  - component: {fileID: 901537698}
+  - component: {fileID: 901537699}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -20197,6 +20364,33 @@ MonoBehaviour:
   showGizmos: 1
   gizmoLineColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   gizmoSphereColor: {r: 0, g: 1, b: 1, a: 1}
+--- !u!45 &901537698
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901537690}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 57ffdd331a963e24fbfd6cd84295a3fc, type: 2}
+--- !u!114 &901537699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901537690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulseObject: 0
+  pulseSkybox: 1
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _Tint
+  skyboxFadeSpeed: 2
 --- !u!4 &910609814 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1351279559945016558, guid: becb0234409970b46996c5a6433d91f4, type: 3}
@@ -21002,7 +21196,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &958120999
 GameObject:
   m_ObjectHideFlags: 0
@@ -22243,7 +22442,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1003284187
 GameObject:
   m_ObjectHideFlags: 0
@@ -22795,7 +22999,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1017818649
 GameObject:
   m_ObjectHideFlags: 0
@@ -22970,7 +23179,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1021064447
 GameObject:
   m_ObjectHideFlags: 0
@@ -23145,7 +23359,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1029865533
 GameObject:
   m_ObjectHideFlags: 0
@@ -23964,7 +24183,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1045852970
 GameObject:
   m_ObjectHideFlags: 0
@@ -24086,7 +24310,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1048598870
 GameObject:
   m_ObjectHideFlags: 0
@@ -24317,7 +24546,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1056538552
 GameObject:
   m_ObjectHideFlags: 0
@@ -25086,7 +25320,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1080060664
 GameObject:
   m_ObjectHideFlags: 0
@@ -25733,7 +25972,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1105323711
 GameObject:
   m_ObjectHideFlags: 0
@@ -26067,7 +26311,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1119495834
 GameObject:
   m_ObjectHideFlags: 0
@@ -26414,7 +26663,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1133795061
 GameObject:
   m_ObjectHideFlags: 0
@@ -26536,7 +26790,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1001 &1135199955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27371,7 +27630,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1168023016
 GameObject:
   m_ObjectHideFlags: 0
@@ -27602,7 +27866,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1170463269
 GameObject:
   m_ObjectHideFlags: 0
@@ -27886,7 +28155,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1181191033
 GameObject:
   m_ObjectHideFlags: 0
@@ -28117,7 +28391,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1187562438
 GameObject:
   m_ObjectHideFlags: 0
@@ -28292,7 +28571,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1196173540
 GameObject:
   m_ObjectHideFlags: 0
@@ -28629,7 +28913,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1209060457
 GameObject:
   m_ObjectHideFlags: 0
@@ -28783,6 +29072,7 @@ MonoBehaviour:
   - {r: 0, g: 1, b: 0.46605062, a: 0}
   - {r: 1, g: 0.094653934, b: 0, a: 0}
   - {r: 1, g: 0.5000555, b: 0.4481132, a: 0}
+  - {r: 0.4490571, g: 0, b: 1, a: 0}
 --- !u!1 &1217247006
 GameObject:
   m_ObjectHideFlags: 0
@@ -29370,7 +29660,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1239971941
 GameObject:
   m_ObjectHideFlags: 0
@@ -29545,7 +29840,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1244585674
 GameObject:
   m_ObjectHideFlags: 0
@@ -29829,7 +30129,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1001 &1248498465
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30276,7 +30581,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &1262510676 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1351279559945016558, guid: becb0234409970b46996c5a6433d91f4, type: 3}
@@ -30848,7 +31158,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1281457606
 GameObject:
   m_ObjectHideFlags: 0
@@ -31459,7 +31774,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1293702010
 GameObject:
   m_ObjectHideFlags: 0
@@ -31864,7 +32184,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1302630854
 GameObject:
   m_ObjectHideFlags: 0
@@ -32228,7 +32553,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1310370430
 GameObject:
   m_ObjectHideFlags: 0
@@ -33212,7 +33542,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1358507019
 GameObject:
   m_ObjectHideFlags: 0
@@ -33894,7 +34229,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1399640387
 GameObject:
   m_ObjectHideFlags: 0
@@ -35016,7 +35356,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1453138278
 GameObject:
   m_ObjectHideFlags: 0
@@ -35222,7 +35567,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1469357251
 GameObject:
   m_ObjectHideFlags: 0
@@ -35397,7 +35747,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &1480866007 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1351279559945016558, guid: becb0234409970b46996c5a6433d91f4, type: 3}
@@ -35795,7 +36150,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1497627143
 GameObject:
   m_ObjectHideFlags: 0
@@ -35917,7 +36277,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1498085531
 GameObject:
   m_ObjectHideFlags: 0
@@ -36148,7 +36513,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1512072674
 GameObject:
   m_ObjectHideFlags: 0
@@ -36323,7 +36693,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &1516052423 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1351279559945016558, guid: becb0234409970b46996c5a6433d91f4, type: 3}
@@ -37158,7 +37533,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1001 &1540404395
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37451,7 +37831,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1554362465
 GameObject:
   m_ObjectHideFlags: 0
@@ -37573,7 +37958,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1560029074
 GameObject:
   m_ObjectHideFlags: 0
@@ -38862,7 +39252,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1608962678
 GameObject:
   m_ObjectHideFlags: 0
@@ -39688,7 +40083,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1650370353
 GameObject:
   m_ObjectHideFlags: 0
@@ -39810,7 +40210,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1655825880
 GameObject:
   m_ObjectHideFlags: 0
@@ -40531,7 +40936,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1696765745
 GameObject:
   m_ObjectHideFlags: 0
@@ -41142,7 +41552,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1704642069
 GameObject:
   m_ObjectHideFlags: 0
@@ -42253,7 +42668,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1738418316
 GameObject:
   m_ObjectHideFlags: 0
@@ -42428,7 +42848,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1742694256
 GameObject:
   m_ObjectHideFlags: 0
@@ -42722,7 +43147,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &1761762577 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4787298288096068772, guid: 1c95e15505293074aa6b41399f04e6fb, type: 3}
@@ -44135,7 +44565,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1832041954
 GameObject:
   m_ObjectHideFlags: 0
@@ -45456,7 +45891,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &1906687306 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1351279559945016558, guid: becb0234409970b46996c5a6433d91f4, type: 3}
@@ -45583,7 +46023,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1001 &1912440198
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46544,7 +46989,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1952290451
 GameObject:
   m_ObjectHideFlags: 0
@@ -46775,7 +47225,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1962881086
 GameObject:
   m_ObjectHideFlags: 0
@@ -46950,7 +47405,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1001 &1978965892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47420,7 +47880,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &1995249051
 GameObject:
   m_ObjectHideFlags: 0
@@ -47606,7 +48071,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 944, y: -12, z: 9}
-  m_LocalScale: {x: 900, y: 5, z: 150}
+  m_LocalScale: {x: 900, y: 5, z: 300}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -48220,7 +48685,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &2028695577
 GameObject:
   m_ObjectHideFlags: 0
@@ -49234,7 +49704,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &2055417281
 GameObject:
   m_ObjectHideFlags: 0
@@ -49960,7 +50435,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &2079864458 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1351279559945016558, guid: becb0234409970b46996c5a6433d91f4, type: 3}
@@ -50140,7 +50620,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &2105821851
 GameObject:
   m_ObjectHideFlags: 0
@@ -213057,7 +213542,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!114 &5763257233059850291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213070,7 +213560,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &5763257233354055388
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -213104,7 +213599,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &5763257233362335514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -213138,7 +213638,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &5763257233500304352
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -213172,7 +213677,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &5763257233861465757
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -213206,7 +213716,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &5763257234072549999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -213240,7 +213755,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &5763257234173935933
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -213274,7 +213794,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &5768545071928226068
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -214958,7 +215483,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &5825083256753635228
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -216680,7 +217210,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &5892674735628508280
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -222301,7 +222836,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &6124105619550227584
 Transform:
   m_ObjectHideFlags: 0
@@ -223525,7 +224065,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &6167115843210278775
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -232646,7 +233191,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &6535997039799534628
 Transform:
   m_ObjectHideFlags: 0
@@ -234507,7 +235057,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &6608150634379892135
 GameObject:
   m_ObjectHideFlags: 0
@@ -236264,7 +236819,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!114 &6658090544670084856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236277,7 +236837,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &6658090545370715431
 GameObject:
   m_ObjectHideFlags: 0
@@ -236310,7 +236875,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &6658090545502097885
 GameObject:
   m_ObjectHideFlags: 0
@@ -236343,7 +236913,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &6658090545510742043
 GameObject:
   m_ObjectHideFlags: 0
@@ -236376,7 +236951,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &6658090545699691688
 GameObject:
   m_ObjectHideFlags: 0
@@ -236409,7 +236989,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &6658090546009632858
 GameObject:
   m_ObjectHideFlags: 0
@@ -236442,7 +237027,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &6658090546607319034
 GameObject:
   m_ObjectHideFlags: 0
@@ -236475,7 +237065,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &6659012621659035132
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -240522,7 +241117,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &6844549310745558644
 GameObject:
   m_ObjectHideFlags: 0
@@ -240936,7 +241536,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &6850065182793655568
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -240970,7 +241575,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &6850065183578052557
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -241004,7 +241614,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &6850065184305758317
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -241038,7 +241653,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &6850065184481586335
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -241072,7 +241692,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &6851885110060576301
 Transform:
   m_ObjectHideFlags: 0
@@ -241791,7 +242416,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &6915303470147103596
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -243373,7 +244003,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &6965189646845193896
 GameObject:
   m_ObjectHideFlags: 0
@@ -243861,7 +244496,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &6989575483173886116
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -243882,7 +244522,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &6989575483341972470
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -243903,7 +244548,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &6989575484207549178
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -243924,7 +244574,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!114 &6989575484207549180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243937,7 +244592,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &6989575484426632215
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -243958,7 +244618,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &6989575484434601425
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -243979,7 +244644,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &6989575484572930347
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -244000,7 +244670,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &6991710116548641855
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -246276,7 +246951,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &7054969469319420032
 GameObject:
   m_ObjectHideFlags: 0
@@ -248970,7 +249650,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &7171604515244912481
 GameObject:
   m_ObjectHideFlags: 0
@@ -251918,7 +252603,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &7268650800272417846
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -252585,7 +253275,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &7334675462419595761
 GameObject:
   m_ObjectHideFlags: 0
@@ -255268,7 +255963,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &7483622416362492909
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -256616,7 +257316,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &7523774859939095406
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -258815,7 +259520,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &7600222454880067974
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -258849,7 +259559,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &7600222455647294299
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -258883,7 +259598,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &7600222456395973883
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -258917,7 +259637,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &7600222456555939849
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -258951,7 +259676,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &7601316302952224479
 GameObject:
   m_ObjectHideFlags: 0
@@ -259003,7 +259733,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &7604525140147711943
 GameObject:
   m_ObjectHideFlags: 0
@@ -259036,7 +259771,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &7604525140156597761
 GameObject:
   m_ObjectHideFlags: 0
@@ -259069,7 +259809,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &7604525140456550636
 GameObject:
   m_ObjectHideFlags: 0
@@ -259103,7 +259848,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!114 &7604525140456550638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259116,7 +259866,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &7604525141487802848
 GameObject:
   m_ObjectHideFlags: 0
@@ -259149,7 +259904,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &7604525141587075762
 GameObject:
   m_ObjectHideFlags: 0
@@ -259182,7 +259942,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &7604525141796081216
 GameObject:
   m_ObjectHideFlags: 0
@@ -259215,7 +259980,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &7606661145931642789
 Transform:
   m_ObjectHideFlags: 0
@@ -259955,7 +260725,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &7651748389437872976
 GameObject:
   m_ObjectHideFlags: 0
@@ -261679,7 +262454,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!114 &7737217697562283562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261692,7 +262472,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &7737217697870008579
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -261750,7 +262535,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &7737217697878882501
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -261808,7 +262598,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &7737217698003097081
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -261866,7 +262661,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &7737217698369122436
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -261924,7 +262724,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &7737217698596346998
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -261982,7 +262787,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &7737217698694178596
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -262040,7 +262850,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &7745948643506643071
 Transform:
   m_ObjectHideFlags: 0
@@ -263257,7 +264072,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &7795566352943475984
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -264645,7 +265465,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &7866271361201801834
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -264666,7 +265491,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &7866271361362585240
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -264687,7 +265517,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &7866271361700948973
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -264708,7 +265543,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &7866271361709408811
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -264729,7 +265569,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &7866271361838886679
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -264750,7 +265595,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &7866271362547709126
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -264771,7 +265621,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!114 &7866271362547709128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264784,7 +265639,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &7871465806263687573
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -266893,7 +267753,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &7965125530555980149
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -267593,7 +268458,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &7992321390728759870
 GameObject:
   m_ObjectHideFlags: 0
@@ -267626,7 +268496,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &7992321391168581443
 GameObject:
   m_ObjectHideFlags: 0
@@ -267659,7 +268534,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &7992321391460385713
 GameObject:
   m_ObjectHideFlags: 0
@@ -267692,7 +268572,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &7992321391632054499
 GameObject:
   m_ObjectHideFlags: 0
@@ -267725,7 +268610,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &7995627864424472126
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -268335,7 +269225,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8035152509338686496
 GameObject:
   m_ObjectHideFlags: 0
@@ -268368,7 +269263,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8035152509435899762
 GameObject:
   m_ObjectHideFlags: 0
@@ -268401,7 +269301,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8035152510742403413
 GameObject:
   m_ObjectHideFlags: 0
@@ -268434,7 +269339,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8035152510876179887
 GameObject:
   m_ObjectHideFlags: 0
@@ -268467,7 +269377,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &8037143731829354715
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -270419,7 +271334,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &8106202469680224712
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -270477,7 +271397,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &8106202470663811055
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -270535,7 +271460,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &8106202471102420157
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -270593,7 +271523,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &8106202471261501519
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -270651,7 +271586,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &8117651699110554612
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -272370,7 +273310,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8197740411755168711
 GameObject:
   m_ObjectHideFlags: 0
@@ -273010,7 +273955,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &8211487257427716502
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -273824,7 +274774,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &8253776121975760020
 Transform:
   m_ObjectHideFlags: 0
@@ -274795,7 +275750,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &8289718603643566498
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -274959,7 +275919,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!114 &8302871476619997792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274972,7 +275937,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &8302871476849542323
 Transform:
   m_ObjectHideFlags: 0
@@ -275001,7 +275971,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &8302871476857531765
 Transform:
   m_ObjectHideFlags: 0
@@ -275030,7 +276005,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &8302871477262199183
 Transform:
   m_ObjectHideFlags: 0
@@ -275059,7 +276039,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &8302871477423738098
 Transform:
   m_ObjectHideFlags: 0
@@ -275088,7 +276073,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &8302871477700255744
 Transform:
   m_ObjectHideFlags: 0
@@ -275117,7 +276107,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &8302871478138870610
 Transform:
   m_ObjectHideFlags: 0
@@ -275146,7 +276141,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8305701980504031877
 GameObject:
   m_ObjectHideFlags: 0
@@ -278572,7 +279572,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8422301610578522252
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -278606,7 +279611,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8422301610700643760
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -278640,7 +279650,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8422301611409589857
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -278674,7 +279689,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!114 &8422301611409589859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278687,7 +279707,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8422301611604062061
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -278721,7 +279746,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8422301612218529997
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -278755,7 +279785,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8422301612510762047
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -278789,7 +279824,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &8422533796571955233
 Transform:
   m_ObjectHideFlags: 0
@@ -278853,7 +279893,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!114 &8422747020503985013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278866,7 +279911,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8422747020743554136
 GameObject:
   m_ObjectHideFlags: 0
@@ -278899,7 +279949,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8422747020751658398
 GameObject:
   m_ObjectHideFlags: 0
@@ -278932,7 +279987,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8422747020876935330
 GameObject:
   m_ObjectHideFlags: 0
@@ -278965,7 +280025,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8422747021309793759
 GameObject:
   m_ObjectHideFlags: 0
@@ -278998,7 +280063,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8422747021504231725
 GameObject:
   m_ObjectHideFlags: 0
@@ -279031,7 +280101,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8422747021668401791
 GameObject:
   m_ObjectHideFlags: 0
@@ -279064,7 +280139,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8428408960645346990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -279407,7 +280487,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8469164089121659863
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -279507,7 +280592,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!114 &8470936429019882585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279520,7 +280610,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &8470936429249827514
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -279578,7 +280673,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &8470936429258472316
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -279636,7 +280736,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &8470936429393002374
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -279694,7 +280799,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &8470936429824678651
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -279752,7 +280862,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &8470936429999355401
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -279810,7 +280925,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &8470936430170705243
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -279868,7 +280988,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &8476813490166070637
 Transform:
   m_ObjectHideFlags: 0
@@ -279918,7 +281043,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &8484907587836092489
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -279939,7 +281069,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &8486422921926522581
 Transform:
   m_ObjectHideFlags: 0
@@ -280388,7 +281523,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &8519046528635410747
 Transform:
   m_ObjectHideFlags: 0
@@ -280706,7 +281846,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8533969805813823169
 GameObject:
   m_ObjectHideFlags: 0
@@ -282820,7 +283965,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &8596556171440936292
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -284151,7 +285301,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8659055976866141600
 GameObject:
   m_ObjectHideFlags: 0
@@ -284461,7 +285616,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8699454673719488499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -284801,7 +285961,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8717856224808045891
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -284835,7 +286000,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8717856225657864094
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -284869,7 +286039,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8717856225987110974
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -284903,7 +286078,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8717856226365981900
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -284937,7 +286117,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &8717860519410050412
 Transform:
   m_ObjectHideFlags: 0
@@ -287602,7 +288787,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8851663001844802878
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -287636,7 +288826,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8851663002239633868
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -287670,7 +288865,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8851663002601598129
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -287704,7 +288904,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8851663002730070413
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -287738,7 +288943,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8851663002738780235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -287772,7 +288982,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &8851663003042379616
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -287806,7 +289021,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!114 &8851663003042379618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -287819,7 +289039,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &8851808459319153065
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -288496,7 +289721,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &8890449575524503465
 Transform:
   m_ObjectHideFlags: 0
@@ -289806,7 +291036,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8949056341138195654
 GameObject:
   m_ObjectHideFlags: 0
@@ -290257,7 +291492,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &8964093230626639706
 GameObject:
   m_ObjectHideFlags: 0
@@ -292195,7 +293435,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!4 &9000917324919197339
 Transform:
   m_ObjectHideFlags: 0
@@ -295817,7 +297062,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &9125365734435556297
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -295838,7 +297088,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &9125365734840651571
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -295859,7 +297114,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 50
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &9125365735214093538
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -295880,7 +297140,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!114 &9125365735214093540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295893,7 +297158,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &9125365735557561838
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -295914,7 +297184,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &9125365736016833102
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -295935,7 +297210,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!33 &9125365736260667068
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -295956,7 +297236,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!23 &9126222121364405242
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -297135,7 +298420,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!1 &9160276379646027144
 GameObject:
   m_ObjectHideFlags: 0
@@ -298378,7 +299668,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad900da4ec301848afcaab51dd6f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 5
+  pulseObject: 1
+  pulseSkybox: 0
+  objectColorProperty: _BaseColor
+  objectFadeSpeed: 5
+  skyboxColorProperty: _SkyTint
+  skyboxFadeSpeed: 2
 --- !u!65 &9205613392521925785
 BoxCollider:
   m_ObjectHideFlags: 0
