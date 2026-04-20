@@ -59,10 +59,26 @@ public class ColorTriggerManager : MonoBehaviour
     private float nextBeatTime3 = 0f;
     private float smoothedValue3 = 0f;
 
+    [Header("Tier 4 - Mest intense farver")]
+    public float threshold4 = 0.04f;
+
+    [Range(0.01f, 1f)]
+    public float beatCooldown4 = 0.08f;
+
+    public float minHz4 = 2000f;
+    public float maxHz4 = 8000f;
+
+    public List<Color> pulseColorsTier4 = new List<Color>();
+    private List<int> colorShuffleList4 = new List<int>();
+    private int listPointer4 = 0;
+    private float nextBeatTime4 = 0f;
+    private float smoothedValue4 = 0f;
+
     [Header("Debug Values")]
     public float currentValue1;
     public float currentValue2;
     public float currentValue3;
+    public float currentValue4;
 
     public delegate void OnBeatAction(Color color);
     public event OnBeatAction OnMusicBeat;
@@ -89,16 +105,30 @@ public class ColorTriggerManager : MonoBehaviour
         float rawValue1 = GetFrequencyRangeValue(minHz1, maxHz1) * sensitivity;
         float rawValue2 = GetFrequencyRangeValue(minHz2, maxHz2) * sensitivity;
         float rawValue3 = GetFrequencyRangeValue(minHz3, maxHz3) * sensitivity;
+        float rawValue4 = GetFrequencyRangeValue(minHz4, maxHz4) * sensitivity;
 
         smoothedValue1 = Mathf.Lerp(smoothedValue1, rawValue1, smoothingSpeed * Time.deltaTime);
         smoothedValue2 = Mathf.Lerp(smoothedValue2, rawValue2, smoothingSpeed * Time.deltaTime);
         smoothedValue3 = Mathf.Lerp(smoothedValue3, rawValue3, smoothingSpeed * Time.deltaTime);
+        smoothedValue4 = Mathf.Lerp(smoothedValue4, rawValue4, smoothingSpeed * Time.deltaTime);
 
         currentValue1 = smoothedValue1;
         currentValue2 = smoothedValue2;
         currentValue3 = smoothedValue3;
+        currentValue4 = smoothedValue4;
 
         // Højeste tier først
+        if (smoothedValue4 > threshold3)
+        {
+            TryPlayTier(
+                pulseColorsTier4,
+                colorShuffleList4,
+                ref listPointer4,
+                ref nextBeatTime4,
+                beatCooldown4
+            );
+            return;
+        }
         if (smoothedValue3 > threshold3)
         {
             TryPlayTier(

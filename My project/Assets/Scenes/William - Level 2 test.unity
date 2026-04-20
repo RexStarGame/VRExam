@@ -29086,9 +29086,19 @@ MonoBehaviour:
   - {r: 0.8207547, g: 0, b: 0.19955613, a: 0}
   - {r: 0.6226415, g: 0, b: 0.15193638, a: 0}
   - {r: 0.5, g: 0, b: 0.12264156, a: 0}
+  threshold4: 12.7
+  beatCooldown4: 0.34
+  minHz4: 98
+  maxHz4: 98
+  pulseColorsTier4:
+  - {r: 0.5019608, g: 0, b: 0.1783457, a: 0}
+  - {r: 0.6886792, g: 0.016242431, b: 0.252646, a: 0}
+  - {r: 0.8113208, g: 0.011480933, b: 0.29049498, a: 0}
+  - {r: 1, g: 0, b: 0.34803915, a: 0}
   currentValue1: 0
   currentValue2: 0
   currentValue3: 0
+  currentValue4: 0
 --- !u!1 &1217247006
 GameObject:
   m_ObjectHideFlags: 0
