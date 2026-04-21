@@ -29,6 +29,8 @@ public class ColorTriggerManager : MonoBehaviour
     private float nextBeatTime1 = 0f;
     private float smoothedValue1 = 0f;
 
+    [SerializeField] private bool aktiv_1 = true;
+
     [Header("Tier 2 - Lidt stærkere farver")]
     public float threshold2 = 0.03f;
 
@@ -43,6 +45,8 @@ public class ColorTriggerManager : MonoBehaviour
     private int listPointer2 = 0;
     private float nextBeatTime2 = 0f;
     private float smoothedValue2 = 0f;
+
+    [SerializeField] private bool aktiv_2 = true;
 
     [Header("Tier 3 - Mest intense farver")]
     public float threshold3 = 0.04f;
@@ -59,6 +63,8 @@ public class ColorTriggerManager : MonoBehaviour
     private float nextBeatTime3 = 0f;
     private float smoothedValue3 = 0f;
 
+    [SerializeField] private bool aktiv_3 = true;
+
     [Header("Tier 4 - Mest intense farver")]
     public float threshold4 = 0.04f;
 
@@ -74,11 +80,31 @@ public class ColorTriggerManager : MonoBehaviour
     private float nextBeatTime4 = 0f;
     private float smoothedValue4 = 0f;
 
+    [SerializeField] private bool aktiv_4 = true;
+
+    [Header("Tier 5 - Mest intense farver")]
+    public float threshold5 = 0.04f;
+
+    [Range(0.01f, 1f)]
+    public float beatCooldown5 = 0.08f;
+
+    public float minHz5 = 2000f;
+    public float maxHz5 = 8000f;
+
+    public List<Color> pulseColorsTier5 = new List<Color>();
+    private List<int> colorShuffleList5 = new List<int>();
+    private int listPointer5 = 0;
+    private float nextBeatTime5 = 0f;
+    private float smoothedValue5 = 0f;
+
+    [SerializeField] private bool aktiv_5 = false;
+
     [Header("Debug Values")]
     public float currentValue1;
     public float currentValue2;
     public float currentValue3;
     public float currentValue4;
+    public float currentValue5;
 
     public delegate void OnBeatAction(Color color);
     public event OnBeatAction OnMusicBeat;
@@ -93,6 +119,8 @@ public class ColorTriggerManager : MonoBehaviour
         CreateShuffledList(pulseColorsTier1, colorShuffleList1, ref listPointer1);
         CreateShuffledList(pulseColorsTier2, colorShuffleList2, ref listPointer2);
         CreateShuffledList(pulseColorsTier3, colorShuffleList3, ref listPointer3);
+        CreateShuffledList(pulseColorsTier4, colorShuffleList4, ref listPointer4);
+        CreateShuffledList(pulseColorsTier5, colorShuffleList5, ref listPointer5);
     }
 
     void Update()
@@ -106,19 +134,22 @@ public class ColorTriggerManager : MonoBehaviour
         float rawValue2 = GetFrequencyRangeValue(minHz2, maxHz2) * sensitivity;
         float rawValue3 = GetFrequencyRangeValue(minHz3, maxHz3) * sensitivity;
         float rawValue4 = GetFrequencyRangeValue(minHz4, maxHz4) * sensitivity;
+        float rawValue5 = GetFrequencyRangeValue(minHz5, maxHz5) * sensitivity;
 
         smoothedValue1 = Mathf.Lerp(smoothedValue1, rawValue1, smoothingSpeed * Time.deltaTime);
         smoothedValue2 = Mathf.Lerp(smoothedValue2, rawValue2, smoothingSpeed * Time.deltaTime);
         smoothedValue3 = Mathf.Lerp(smoothedValue3, rawValue3, smoothingSpeed * Time.deltaTime);
         smoothedValue4 = Mathf.Lerp(smoothedValue4, rawValue4, smoothingSpeed * Time.deltaTime);
+        smoothedValue5 = Mathf.Lerp(smoothedValue5, rawValue5, smoothingSpeed * Time.deltaTime);   
 
         currentValue1 = smoothedValue1;
         currentValue2 = smoothedValue2;
         currentValue3 = smoothedValue3;
         currentValue4 = smoothedValue4;
+        currentValue5 = smoothedValue5;
 
         // Højeste tier først
-        if (smoothedValue4 > threshold3)
+        if (smoothedValue5 > threshold5 && aktiv_5 == true)
         {
             TryPlayTier(
                 pulseColorsTier4,
@@ -129,7 +160,18 @@ public class ColorTriggerManager : MonoBehaviour
             );
             return;
         }
-        if (smoothedValue3 > threshold3)
+        if (smoothedValue4 > threshold4 && aktiv_4 == true)
+        {
+            TryPlayTier(
+                pulseColorsTier4,
+                colorShuffleList4,
+                ref listPointer4,
+                ref nextBeatTime4,
+                beatCooldown4
+            );
+            return;
+        }
+        if (smoothedValue3 > threshold3 && aktiv_3 == true)
         {
             TryPlayTier(
                 pulseColorsTier3,
@@ -141,7 +183,7 @@ public class ColorTriggerManager : MonoBehaviour
             return;
         }
 
-        if (smoothedValue2 > threshold2)
+        if (smoothedValue2 > threshold2 && aktiv_2 == true)
         {
             TryPlayTier(
                 pulseColorsTier2,
@@ -153,7 +195,7 @@ public class ColorTriggerManager : MonoBehaviour
             return;
         }
 
-        if (smoothedValue1 > threshold1)
+        if (smoothedValue1 > threshold1 && aktiv_1 == true)
         {
             TryPlayTier(
                 pulseColorsTier1,

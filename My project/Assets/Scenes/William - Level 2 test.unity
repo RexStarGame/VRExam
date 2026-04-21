@@ -32476,7 +32476,7 @@ MonoBehaviour:
   audioSource: {fileID: 1925883609}
   sensitivity: 100
   fftWindow: 5
-  smoothingSpeed: 12
+  smoothingSpeed: 15
   threshold1: 12.7
   beatCooldown1: 0.34
   minHz1: 55
@@ -32491,6 +32491,7 @@ MonoBehaviour:
   - {r: 0.54901963, g: 0, b: 0, a: 0}
   - {r: 0.47058824, g: 0, b: 0, a: 0}
   - {r: 0.39215687, g: 0, b: 0, a: 0}
+  aktiv_1: 1
   threshold2: 12.7
   beatCooldown2: 0.34
   minHz2: 41.2
@@ -32500,6 +32501,7 @@ MonoBehaviour:
   - {r: 0.7830189, g: 0.20573439, b: 0, a: 0}
   - {r: 0.6415094, g: 0.16679244, b: 0, a: 0}
   - {r: 0.509434, g: 0.1335711, b: 0, a: 0}
+  aktiv_2: 1
   threshold3: 12.7
   beatCooldown3: 0.34
   minHz3: 73.42
@@ -32509,6 +32511,7 @@ MonoBehaviour:
   - {r: 0.8207547, g: 0, b: 0.19955613, a: 0}
   - {r: 0.6226415, g: 0, b: 0.15193638, a: 0}
   - {r: 0.5, g: 0, b: 0.12264156, a: 0}
+  aktiv_3: 1
   threshold4: 12.7
   beatCooldown4: 0.34
   minHz4: 98
@@ -32518,10 +32521,18 @@ MonoBehaviour:
   - {r: 0.6886792, g: 0.016242431, b: 0.252646, a: 0}
   - {r: 0.8113208, g: 0.011480933, b: 0.29049498, a: 0}
   - {r: 1, g: 0, b: 0.34803915, a: 0}
+  aktiv_4: 1
+  threshold5: 0.04
+  beatCooldown5: 0.08
+  minHz5: 2000
+  maxHz5: 8000
+  pulseColorsTier5: []
+  aktiv_5: 0
   currentValue1: 0
   currentValue2: 0
   currentValue3: 0
   currentValue4: 0
+  currentValue5: 0
 --- !u!1 &1217247006
 GameObject:
   m_ObjectHideFlags: 0
