@@ -206,6 +206,11 @@ public class ColorTriggerManager : MonoBehaviour
             );
         }
     }
+    public void ResetData()
+    {
+        PlayerPrefs.DeleteAll();
+
+    }
 
     float GetFrequencyRangeValue(float minHz, float maxHz)
     {
